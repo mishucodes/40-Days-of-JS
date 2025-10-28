@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+
+
+<body>
+    <!-- THE MASTER CONTAINER -->
+    <div class="game">
+        <!-- HEADER -->
+        <div class="header">
+            <div id="computer">
+                <div class="health"></div>
+                <div class="player-name" contenteditable="true">YOU</div>
+            </div>
+            <div id="versus">vs</div>
+            <div id="client">
+                <div class="health"></div>
+                <div class="player-name" contenteditable="true">COMPUTER</div>
+            </div>
+        </div>
+
+
+        <!-- MAIN GAME -->
+        <div class="main-game">
+            <div id="playerOne">
+                <div class="player-avatar">
+                    <img src="https://cdn.prod.website-files.com/5e51c674258ffe10d286d30a/5e535727550b765a60f50817_peep-47.png">
+                </div>
+                <div class="player-move">?</div>
+            </div>
+
+
+            <div id="playerTwo">
+                <div class="player-move">?</div>
+                <div class="player-avatar">
+                    <img src="https://cdn.prod.website-files.com/5e51c674258ffe10d286d30a/5e535c7fe35d38121c68ba2b_peep-93.png">
+                </div>
+            </div>
+        </div>
+
+
+        <!-- FOOTER -->
+        <div class="footer">
+            <div id="game-input" contenteditable="true">STARTING A NEW GAME</div>
+    </div>
+</body>
+</html>

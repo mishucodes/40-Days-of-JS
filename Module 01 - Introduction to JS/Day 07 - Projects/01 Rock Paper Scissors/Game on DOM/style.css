@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(252,179,47);
+    font-family: "Press Start 2P", system-ui;
+}
+
+
+/* MAIN GAME */
+.game{
+    /* border: 1px solid red; */
+    height: 90vh;
+    width: 95vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+/* HEADER */
+.header{
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-top: 25px;
+    width: 98%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+#versus{
+    font-size: 5rem;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.header .health{
+    background-color: rgba(61,194,149);
+    height: 3vh;
+    width: 35vw;
+    border-radius: 5px;
+}
+
+#computer, #client{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex-basis: 35vw;
+}
+#computer{
+    text-align: start;
+}
+#client{
+    text-align: end;
+}
+
+.player-name {
+    cursor: text;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+
+
+/* MAIN GAME */
+.main-game{
+    /* border: 1px solid black; */
+    margin: auto;
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#playerOne, #playerTwo{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.main-game .player-avatar img{
+    /* border: 1px solid black; */
+    height: 400px;
+}
+
+.main-game .player-move{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 6rem;
+}
+
+
+
+/* FOOTER */
+.footer{
+    /* border: 1px solid black; */
+    height: 10vh;
+    width: 98%;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+#game-input {
+    border: 1px solid black;
+    cursor: text;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+}
