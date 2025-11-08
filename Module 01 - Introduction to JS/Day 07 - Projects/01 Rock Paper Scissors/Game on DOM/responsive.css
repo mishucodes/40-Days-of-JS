@@ -1,0 +1,141 @@
+/* Mobile Responsive Styles */
+
+/* Tablets and smaller laptops */
+@media (max-width: 1024px) {
+    .header {
+        font-size: 1.2rem;
+    }
+    
+    #versus {
+        font-size: 4rem;
+    }
+    
+    .main-game .player-avatar img {
+        height: 300px;
+    }
+    
+    .main-game .player-move {
+        font-size: 5rem;
+    }
+    
+    .footer {
+        font-size: 1.5rem;
+    }
+}
+
+/* Tablets in portrait and large phones */
+@media (max-width: 768px) {
+    .header {
+        font-size: 1rem;
+    }
+    
+    #versus {
+        font-size: 3rem;
+    }
+    
+    .header .health {
+        height: 2vh;
+        width: 30vw;
+    }
+    
+    #computer, #client {
+        flex-basis: 30vw;
+    }
+    
+    .main-game .player-avatar img {
+        /* border: 1px solid black; */
+        height: 200px;
+    }
+    
+    .main-game .player-move {
+        /* border: 1px solid black; */
+        font-size: 4rem;
+        padding: 15px;
+    }
+    
+    .footer {
+        font-size: 1.2rem;
+    }
+}
+
+/* Mobile phones */
+@media (max-width: 480px) {
+    .game {
+        height: 95vh;
+    }
+    
+    .header {
+        font-size: 1.5rem;
+        margin-top: 15px;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    
+    #versus {
+        font-size: 5rem;
+        order: -1;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .header .health {
+        height: 2vh;
+        width: 40vw;
+    }
+    
+    #computer, #client {
+        flex-basis: 40vw;
+        gap: 8px;
+    }
+    
+    .main-game {
+        align-items: center;
+    }
+    
+    #playerOne, #playerTwo {
+        justify-content: center;
+        gap: 5px;
+    }
+    
+    .main-game .player-avatar img {
+        height: 180px;
+    }
+    
+    .main-game .player-move {
+        font-size: 3rem;
+        padding: 10px;
+    }
+    
+    .footer {
+        font-size: 2rem;
+        height: auto;
+        padding: 5px;
+    }
+    
+    #game-input {
+        padding: 8px;
+        font-size: 2rem;
+    }
+}
+
+/* Very small mobile phones */
+@media (max-width: 360px) {
+    .header {
+        font-size: 1rem;
+    }
+    #versus {
+        font-size: 1.5rem;
+    }
+    
+    .main-game .player-avatar img {
+        height: 100px;
+    }
+    
+    .main-game .player-move {
+        font-size: 2rem;
+    }
+    
+    .footer {
+        font-size: 1rem;
+    }
+}
