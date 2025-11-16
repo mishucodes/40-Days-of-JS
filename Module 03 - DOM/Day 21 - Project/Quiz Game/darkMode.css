@@ -1,25 +1,18 @@
 :root {
     --bg-dark: hsl(0, 0%, 0%);
-    --card-dark: hsl(0, 0%, 10%);
-    --highlight-dark: hsl(0, 0%, 25%);
+    --card-dark: linear-gradient(0deg, hsl(0, 0%, 10%) 95%, hsl(0, 0%, 25%));
+    --card-hover-dark: linear-gradient(0deg, hsl(0, 0%, 10%), hsl(0, 0%, 25%));
     --nestedCard01-dark: hsl(40, 15%, 15%);
     --nestedCard02-dark: hsl(40, 15%, 25%);
 
     --normal-textColor-dark: hsl(30, 30%, 85%);
     --muted-textColor-dark: hsl(30, 20%, 65%);
     
-    --border-dark: hsl(0, 0%, 30%);
-    --highlight-border-dark: hsl(0, 0%, 60%);
-    --gradient-dark: linear-gradient(0deg, var(--card-dark) 95%, var(--highlight-dark));
-    --gradient-dark-hover: linear-gradient(0deg, var(--card-dark), var(--highlight-dark));
+    --border-dark: hsl(0, 0%, 50%);
+    --highlight-border-dark: hsl(0, 0%, 65%);
 
-    --primary-dark: hsl(0 66% 75%);
-    --secondary-dark: hsl(183 52% 57%);
-    --danger-dark: hsl(9 26% 64%);
-    --warning-dark: hsl(52 19% 57%);
-
-    --success-dark: hsl(146 17% 59%);
-    --info-dark: hsl(217 28% 65%);
+    --correct-dark: hsl(154 58% 29%);
+    --wrong-dark: hsl(356 49% 32%);
 }
 
 @media (prefers-color-scheme: dark)
@@ -33,13 +26,13 @@
     header, main{
         border: 1px solid var(--border-dark);
         border-top: 1px solid var(--highlight-border-dark);
-        background: var(--gradient-dark);
+        background: var(--card-dark);
     }
     header{
         background: var(--nestedCard01-dark);
     }
     header:hover, main:hover{
-        background: var(--gradient-dark-hover);
+        background: var(--card-hover-dark);
     }
 
     main #quizzes{
@@ -47,35 +40,33 @@
         background-color: var(--nestedCard01-dark);
     }
     main #quizzes li{
+        border: 1px solid var(--border-dark);
         background-color: var(--nestedCard02-dark);
     }
     main #quizzes li:hover{
-        background-color: var(--highlight-dark);
+        background-color: transparent;
     }
     main #quizzes li a h3{
         color: var(--normal-textColor-dark);
     }
-    #options li:hover{
-        background-color: var(--nestedCard02-dark);
-    }
-    #options li button{
-        border: 1px solid var(--border-light);
-        border: none;
-    }
     .correctAnswer {
-        background-color: var(--success-light) !important;
+        background-color: var(--correct-dark) !important;
     }
     .wrongAnswer {
-        background-color: var(--primary-light) !important;
-    }
-
-    controls{
-        background: var(--gradient-dark);
+        background-color: var(--wrong-dark) !important;
     }
     controls button{
-        background-color: var(--nestedCard02-dark);
+        color: var(--normal-textColor-dark);
     }
-
+    #previousButton{
+        background-color: var(--wrong-dark);
+    }
+    #nextButton{
+        background-color: var(--correct-dark);
+    }
+    controls a{
+        background-color: var(--correct-dark);
+    }
     footer a{
         color: var(--primary-dark);
     }

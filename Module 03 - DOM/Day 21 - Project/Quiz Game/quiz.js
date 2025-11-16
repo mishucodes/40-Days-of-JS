@@ -113,4 +113,9 @@
         fragment.appendChild(h2);
         fragment.appendChild(p);
         canvas.replaceChildren(fragment);
+
+        let home = document.createElement("a");
+        home.textContent = "Take a new Test";
+        home.setAttribute("href", "./index.html");
+        document.querySelector("controls").replaceChildren(home);
     }

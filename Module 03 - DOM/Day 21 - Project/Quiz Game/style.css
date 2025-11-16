@@ -1,27 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 :root {
     --bg-light: hsl(40, 15%, 90%);
-    --card-light: hsl(40, 15%, 95%);
-    --highlight-light: hsl(40, 15%, 98%);
-    --nestedCard01-light: hsl(40, 15%, 85%);
+    --card-light: linear-gradient(0deg, hsl(40, 15%, 95%) 95%, hsl(40, 15%, 98%));
+    --card-hover-light: linear-gradient(0deg, hsl(40, 15%, 95%), hsl(40, 15%, 98%));
+    --nestedCard01-light: hsl(40, 15%, 90%);
     --nestedCard02-light: hsl(40, 15%, 75%);
 
     --normal-textColor-light: hsl(30, 20%, 20%);
     --muted-textColor-light: hsl(30, 15%, 40%);
 
-    --border-light: hsl(0, 0%, 95%);
-    --highlight-border-light: hsl(0, 0%, 100%);
-    --gradient-light: linear-gradient(0deg, var(--card-light) 95%, var(--highlight-light));
-    --gradient-light-hover: linear-gradient(0deg, var(--card-light), var(--highlight-light));
+    --border-light: hsl(0, 0%, 30%);
+    --highlight-border-light: hsl(0, 0%, 60%);
     --shadow-light: 0px 2px 2px hsla(0, 0%, 0%, 0.07), 0px 4px 4px hsla(0, 0%, 0%, 0.15);
 
-    --primary-light: hsl(356 49% 32%);
-    --secondary-light: hsl(183 100% 8%);
-    --danger-light: hsl(8 43% 42%);
-    --warning-light: hsl(53 100% 19%);
-
-    --success-light: hsl(154 58% 29%);
-    --info-light: hsl(217 42% 43%);
+    --correct-light: hsl(146 17% 59%);
+    --wrong-light: hsl(0 66% 75%);
 }
 
 
@@ -41,7 +34,7 @@ body{
 header, main{
     border: 1px solid var(--border-light);
     border-radius: 2rem;
-    background: var(--gradient-light);
+    background: var(--card-light);
     margin: 2rem;
     padding: 1rem;
     padding-right: 1.5rem;
@@ -51,7 +44,7 @@ header, main{
     box-shadow: var(--shadow-light);
 }
 header:hover, main:hover{
-    background: var(--gradient-light-hover);
+    background: var(--card-hover-light);
 }
 header p{
     font-weight: bold;
@@ -101,16 +94,19 @@ main #quizzes li{
     background-color: var(--nestedCard02-light);
     list-style: none;
 }
+main #quizzes li:hover{
+    background: transparent;
+}
 main #quizzes li a{
     text-decoration: none;
     text-align: center;
 }
-main #quizzes li:hover{
-    background-color: var(--highlight-light);
-}
 main #quizzes li a h3{
     color: var(--normal-textColor-light);
 }
+
+
+/* Quiz starts from here: */
 #question{
     font-size: 2rem;
 }
@@ -127,47 +123,59 @@ main #quizzes li a h3{
     width: 100%;
     text-align: center;
 }
-#options li:hover{
-    background-color: var(--nestedCard02-light);
-}
 #options li button{
     background-color: transparent;
-    border: 1px solid var(--border-dark);
+    border: 1px solid var(--border-light);
     border: none;
     width: 100%;
     border-radius: 1rem;
-    /* padding: 0.5rem 2rem; */
     font-size: 1.5rem;
     cursor: pointer;
 }
 .correctAnswer {
-    background-color: var(--success-dark) !important;
+    background-color: var(--correct-light) !important;
 }
 .wrongAnswer {
-    background-color: var(--primary-dark) !important;
+    background-color: var(--wrong-light) !important;
 }
 
 controls{
-    border: 1px solid var(--border-dark);
-    border-radius: 1rem;
-    background: var(--gradient-light);
+    /* border: 1px solid white; */
+    border-radius: 0.5rem;
     margin: 1rem 5rem;
     margin-top: 2.5rem;
-    padding: 0.75rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 controls button{
     border: none;
     border-radius: 1rem;
-    background-color: var(--nestedCard02-light);
-    padding: 0.75rem 3rem;
-    font-size: 1rem;
+    padding: 0.1rem 2.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+}
+#previousButton{
+    background-color: var(--wrong-light);
+}
+#nextButton{
+    background-color: var(--correct-light);
+}
+controls a{
+    /* border: 1px solid red; */
+    border-radius: 2rem;
+    background-color: var(--correct-light);
+    padding: 0.5rem;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2rem;
 }
 
 hr{
-    border: 0.5px solid var(--border-dark);
+    border: 0.5px solid var(--border-light);
     margin: 5rem;
     margin-bottom: 0rem;
 }
