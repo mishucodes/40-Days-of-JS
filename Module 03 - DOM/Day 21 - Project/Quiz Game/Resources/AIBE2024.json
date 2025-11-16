@@ -1,0 +1,52 @@
+[
+    {
+        "question": "What year was the US founded?",
+        "options": ["1803", "1796", "1776", "1720"],
+        "answer": 3
+    },
+    {
+        "question": "Who was the first President of the United States?",
+        "options": ["John Adams", "George Washington", "Thomas Jefferson", "James Madison"],
+        "answer": 2
+    },
+    {
+        "question": "When did World War II end?",
+        "options": ["1945", "1939", "1918", "1950"],
+        "answer": 1
+    },
+    {
+        "question": "Which ancient civilisation built the pyramids?",
+        "options": ["Romans", "Greeks", "Egyptians", "Persians"],
+        "answer": 3
+    },
+    {
+        "question": "What year did the Berlin Wall fall?",
+        "options": ["1981", "1989", "1991", "1975"],
+        "answer": 2
+    },
+    {
+        "question": "Who discovered penicillin?",
+        "options": ["Marie Curie", "Alexander Fleming", "Louis Pasteur", "Isaac Newton"],
+        "answer": 2
+    },
+    {
+        "question": "Which empire was ruled by Genghis Khan?",
+        "options": ["Ottoman", "Mongol", "Roman", "Byzantine"],
+        "answer": 2
+    },
+    {
+        "question": "Where did the Renaissance begin?",
+        "options": ["France", "Greece", "Italy", "Germany"],
+        "answer": 3
+    },
+    {
+        "question": "What was the name of the ship on which the Pilgrims sailed to America?",
+        "options": ["Mayflower", "Endeavour", "Victoria", "Beagle"],
+        "answer": 1
+    },
+    {
+        "question": "Which war was sparked by the assassination of Archduke Franz Ferdinand?",
+        "options": ["World War I", "World War II", "Crimean War", "American Civil War"],
+        "answer": 1
+    }
+]

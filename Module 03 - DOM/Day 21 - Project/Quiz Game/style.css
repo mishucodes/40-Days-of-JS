@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+:root {
+    --bg-light: hsl(40, 15%, 90%);
+    --card-light: hsl(40, 15%, 95%);
+    --highlight-light: hsl(40, 15%, 98%);
+    --nestedCard01-light: hsl(40, 15%, 85%);
+    --nestedCard02-light: hsl(40, 15%, 75%);
+
+    --normal-textColor-light: hsl(30, 20%, 20%);
+    --muted-textColor-light: hsl(30, 15%, 40%);
+
+    --border-light: hsl(0, 0%, 95%);
+    --highlight-border-light: hsl(0, 0%, 100%);
+    --gradient-light: linear-gradient(0deg, var(--card-light) 95%, var(--highlight-light));
+    --gradient-light-hover: linear-gradient(0deg, var(--card-light), var(--highlight-light));
+    --shadow-light: 0px 2px 2px hsla(0, 0%, 0%, 0.07), 0px 4px 4px hsla(0, 0%, 0%, 0.15);
+
+    --primary-light: hsl(356 49% 32%);
+    --secondary-light: hsl(183 100% 8%);
+    --danger-light: hsl(8 43% 42%);
+    --warning-light: hsl(53 100% 19%);
+
+    --success-light: hsl(154 58% 29%);
+    --info-light: hsl(217 42% 43%);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+    color: var(--normal-textColor-light);
+}
+
+body{
+    background-color: var(--bg-light);
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+header, main{
+    border: 1px solid var(--border-light);
+    border-radius: 2rem;
+    background: var(--gradient-light);
+    margin: 2rem;
+    padding: 1rem;
+    padding-right: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: var(--shadow-light);
+}
+header:hover, main:hover{
+    background: var(--gradient-light-hover);
+}
+header p{
+    font-weight: bold;
+}
+header img{
+    height: 5rem;
+}
+
+
+
+main{
+    min-height: 35vh;
+    border-radius: 1.5rem;
+    margin-top: 3rem;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+}
+#quizHeader{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#quizName{
+    font-size: 3rem;
+}
+main #quizzes{
+    min-height: inherit;
+    border: 1px solid var(--border-light);
+    border-radius: 1rem;
+    width: 100%;
+    margin: auto;
+    padding: 1rem;
+    background-color: var(--nestedCard01-light);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+main #quizzes li{
+    border: 1px solid black;
+    border-radius: 1rem;
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--nestedCard02-light);
+    list-style: none;
+}
+main #quizzes li a{
+    text-decoration: none;
+    text-align: center;
+}
+main #quizzes li:hover{
+    background-color: var(--highlight-light);
+}
+main #quizzes li a h3{
+    color: var(--normal-textColor-light);
+}
+#question{
+    font-size: 2rem;
+}
+#options{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+#options li{
+    list-style: none;
+    width: 100%;
+    text-align: center;
+}
+#options li:hover{
+    background-color: var(--nestedCard02-light);
+}
+#options li button{
+    background-color: transparent;
+    border: 1px solid var(--border-dark);
+    border: none;
+    width: 100%;
+    border-radius: 1rem;
+    /* padding: 0.5rem 2rem; */
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.correctAnswer {
+    background-color: var(--success-dark) !important;
+}
+.wrongAnswer {
+    background-color: var(--primary-dark) !important;
+}
+
+controls{
+    border: 1px solid var(--border-dark);
+    border-radius: 1rem;
+    background: var(--gradient-light);
+    margin: 1rem 5rem;
+    margin-top: 2.5rem;
+    padding: 0.75rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+controls button{
+    border: none;
+    border-radius: 1rem;
+    background-color: var(--nestedCard02-light);
+    padding: 0.75rem 3rem;
+    font-size: 1rem;
+}
+
+hr{
+    border: 0.5px solid var(--border-dark);
+    margin: 5rem;
+    margin-bottom: 0rem;
+}
+footer{
+    /* border: 1px solid black; */
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+footer a{
+    color: var(--primary-light);
+    font-weight: bold;
+}
