@@ -30,7 +30,7 @@
     "answer": 1
   },
   {
-    "question": "Which of the following statement is correct about 106th Constitutional Amendment Act ?",
+    "question": "Which of the following statement is correct about 106th Constitutional Amendment Act? (i) It introduces Article 239A by which seats are reserved for women in legislative assembly of the national capital territory of Delhi. (ii) It introduces Article 338 providing for the reservation of seats for women in the house of people. (iii) It also adds Article 334 A which states in that the said amendment will commence after the first census have been taken after the commencement of the said Act. (iv) The above stated shall cease to have effect on the expiration of a period of 15 years from search commencement.",
     "options": [
       "(i), (ii) & (iii)",
       "(i), (iii) & (iv)",
@@ -40,7 +40,7 @@
     "answer": 0
   },
   {
-    "question": "The Parliament enacts the \"Fair Housing Act, 2024\", which includes the following provisions : A citizen challenges Section 10, arguing that it violates the right to privacy under Article 21 of the Indian Constitution. The Supreme Court declares Section 10 unconstitutional but upholds the other provisions of the law. What principle did the court apply in this decision ?",
+    "question": "The Parliament enacts the \"Fair Housing Act, 2024\", which includes the following provisions : (1) Section 3 : Prohibits discrimination in renting or selling houses based on religion, caste, or gender. (2) Section 6 : Imposes a penalty of ₹ 10,000 for discrimination. (3) Section 10 : Makes it mandatory for landlords to disclose the religious background of all tenants in the previous 10 years. A citizen challenges Section 10, arguing that it violates the right to privacy under Article 21 of the Indian Constitution. The Supreme Court declares Section 10 unconstitutional but upholds the other provisions of the law. What principle did the court apply in this decision ?",
     "options": [
       "Doctrine of Eclipse",
       "Doctrine of Severability",
@@ -180,7 +180,7 @@
     "answer": 4
   },
   {
-    "question": "Consider the following statements and answer the question given below: Mr. Patel being a police officer receives a complaint and information that Raju was involved in a robbery of bank and has also helped to hide the valuable properties in his farm, as stated by two villagers. With this regard, consider the following : The Police Officer Mr. Patel may arrest Raju without warrant when – (1) Raju can be arrested only if he commits a non-cognizable offence in the presence of Mr. Patel. (2) Since the reasonable complaint against Raju has been received and there is a strong suspicion exists due to the testimony of villagers, he can be immediately arrested. (3) Raju can be arrested only when he tries to escape or run away. (4) Raju can be arrested so as to prevent him from making any inducement, threat or promise to any person acquainted with facts and circumstances. Which of the above is/are the correct statement?",
+    "question": "Consider the following statements and answer the question given below: Mr. Patel being a police officer receives a complaint and information that Raju was involved in a robbery of bank and has also helped to hide the valuable properties in his farm, as stated by two villagers. With this regard, consider the following : The Police Officer Mr. Patel may arrest Raju without warrant when - (1) Raju can be arrested only if he commits a non-cognizable offence in the presence of Mr. Patel. (2) Since the reasonable complaint against Raju has been received and there is a strong suspicion exists due to the testimony of villagers, he can be immediately arrested. (3) Raju can be arrested only when he tries to escape or run away. (4) Raju can be arrested so as to prevent him from making any inducement, threat or promise to any person acquainted with facts and circumstances. Which of the above is/are the correct statement?",
     "options": [
       "(1) and (3)",
       "(2) and (4)",
@@ -197,7 +197,7 @@
       "False FIR",
       "Counter FIR"
     ],
-    "answer": 3
+    "answer": 2
   },
   {
     "question": "The BNSS mandates a forensic team to visit the crime scenes to collect evidence for offenses punishable with imprisonment for at least ------  years.",
@@ -267,7 +267,7 @@
       "84",
       "86"
     ],
-    "answer": 3
+    "answer": 4
   },
   {
     "question": "Which section of BNSS places restrictions on the adjournment of trials, ensuring the expeditious resolution of cases ?",
@@ -405,7 +405,7 @@
       "The recovered laptop and fingerprints are automatically considered conclusive proof of Rajesh's guilt.",
       "The recovered laptop and fingerprints are circumstantial evidence that can be considered along with other evidence, but do not by themselves prove guilt beyond reasonable doubt.",
       "The evidence is inadmissible because the police did not obtain a search warrant before recovering the laptop.",
-      "The fingerprints must be verfied by at least two independent forensic experts before being presented in court."
+      "The fingerprints must be verified by at least two independent forensic experts before being presented in court."
     ],
     "answer": 2
   },
@@ -437,7 +437,7 @@
       "Never relevant",
       "Only in criminal cases"
     ],
-    "answer": 1
+    "answer": 2
   },
   {
     "question": "As per Section 78(2) of the BSA 2023, presumption about the officer signing or certifying a document is :",
@@ -467,7 +467,7 @@
       "The mediator acts as a judge and renders a verdict.",
       "It is always court-ordered."
     ],
-    "answer": 1
+    "answer": 2
   },
   {
     "question": "A dispute arises between ABC Ltd. and XYZ Pvt. Ltd. regarding a contract that both parties had entered into. The agreement includes an arbitration clause, which states that any disputes shall be referred to arbitration. However, the parties fail to agree on the appointment of an arbitrator. Which of the following provisions of the Arbitration and Conciliation Act, 1996 would be applicable to resolve the issue of the appointment of an arbitrator?",
@@ -557,7 +557,7 @@
       "a-i, b-iv, c-iii, d-ii, e-v",
       "a-iii, b-iv, c-i, d-ii, e-vi"
     ],
-    "answer": 0
+    "answer": 3
   },
   {
     "question": "Fatima, a Muslim woman, has been divorced by her husband, Imran, through Talaq. Fatima is now seeking maintenance from Imran for herself and her two minor children. Imran argues that Fatima has remarried and, therefore, is not entitled to any maintenance. Under Muslim law, which of the following statements is true regarding Fatima's claim for maintenance ?",
@@ -567,7 +567,7 @@
       "Fatima is entitled to maintenance for herself during her iddat period and for her children-until they are self-supporting.",
       "Fatima can claim maintenance for herself and her children indefinitely, irrespective of her remarriage or the children's age."
     ],
-    "answer": 4
+    "answer": 0
   },
   {
     "question": "The remedy of restitution of conjugal rights is given in Section ----------- of Hindu Marriage Act, 1955.",
@@ -687,7 +687,7 @@
       "Only (4)",
       "(2) and (4)"
     ],
-    "answer": 1
+    "answer": 0
   },
   {
     "question": "As per Section 2(84) Share means share in the share capital of a Company and includes------------- . (1) Debentures (2) Preference Shares (3) Stocks (4) Bonds",
@@ -707,7 +707,7 @@
       "Buy Back of Shares",
       "Reduction in share Capital"
     ],
-    "answer": 1
+    "answer": 2
   },
   {
     "question": "A manufacturing company in the city of Surat named as \" X \" has been discharging untreated industrial waste into a nearby river, violating the provisions of the Environment Protection Act, 1986 and the Water (Prevention and Control of Pollution) Act, 1974. This has resulted in severe pollution, making the river water unsafe for drinking and harming aquatic life. Local farmers and residents, who rely on the river for irrigation and daily needs, have started facing health issues and crop failures due to the contaminated water. Despite multiple complaints to the local pollution control board, no action has been taken against the company. Based on the above problem, select the correct answer.",
@@ -737,7 +737,7 @@
       "(1), (2) and (4)",
       "(1), (2), (3) and (4)"
     ],
-    "answer": 3
+    "answer": 2
   },
   {
     "question": "Malti, a small business owner, runs an online clothing store. Recently, she noticed that her website had been hacked, and her customers' personal information, including names, addresses, and payment details, was stolen. Shortly after, some of her customers reported unauthorized transactions on their accounts. Malti wishes to file a complaint against the incident. On the basis of the above problem select the correct option.",
@@ -777,7 +777,7 @@
       "Labour Courts",
       "National Tribunal"
     ],
-    "answer": 1
+    "answer": 2
   },
   {
     "question": "XYZ Textiles Ltd., a manufacturing company, recently terminated 04 workers without providing any compensation. The termination was because of the misconduct on the part of the workers. The company issued a show cause notice and the disciplinary enquiry was also conducted against them. On the basis of the recommendations of the committee the services of these employees were terminated. The workers claimed the retrenchment compensation which was rejected by the management. Aggrieved by the rejection the workers have filed a complaint in the Labour Court under the provisions of the Industrial Disputes Act, 1947. Based on the above problem, select the correct answer.",
@@ -857,7 +857,7 @@
       "No tax deduction can be availed under Section 80 C .",
       "It is an unlawful act to treat a personal expenditure."
     ],
-    "answer": 1
+    "answer": 2
   },
   {
     "question": "Read the given statements and choose the correct option Statement 1 Agricultural income is exempt from tax under Section 10(1) of Income Tax Act, 1961. Statement 2 Tax on Non-Agricultural in case of Non-Agricultural Income exceeds Basic Exemption limit and Agricultural Income exceeds 5000- is determined by Scheme of Partial Integration of Non-Agricultural Income with Agricultural Income.",
@@ -917,7 +917,7 @@
       "It amounts to Subsequent Transfer of Property.",
       "It amounts to conditions precedent in the Transfer of Property."
     ],
-    "answer": 4
+    "answer": 2
   },
   {
     "question": "Mr. Rajesh issued a cheque of 50,000 to his supplier, Mr. Sharma, for the payment of goods purchased. When Mr. Sharma deposited the cheque, it was returned by the bank with the remark Insufficient Funds. On the basis of the above problem, select the correct option.",
@@ -927,7 +927,7 @@
       "A complaint in writing is to be made by Mr. Sharma in the court within five months for the dishonour of the cheque.",
       "A complaint in writing is to be made by Mr. Sharma in the court within two months for the dishonour of the cheque."
     ],
-    "answer": 3
+    "answer": 2
   },
   {
     "question": "Section 31 of the Specific Relief Act, 1963 is related to ---------",
@@ -937,7 +937,7 @@
       "Declaratory decrees",
       "Perpetual injunction"
     ],
-    "answer": 1
+    "answer": 2
   },
   {
     "question": "How the recovery of specific immovable property may be enforced ?",
@@ -960,7 +960,7 @@
     "answer": 1
   },
   {
-    "question": "According to the Land Acquisition Act Land Acquisition, Rehabilitation and Resettlement, 2013, governments can acquire land for , i Strategic purpose. ii Projects for Families Affected by Projects. iii For public-private partnership projects, where government ownership of land will remain with the government. - ,",
+    "question": "According to the Land Acquisition Act Land Acquisition, Rehabilitation and Resettlement, 2013, governments can acquire land for: (i) Strategic purpose. (ii) Projects for Families Affected by Projects. (iii) For public-private partnership projects, where government ownership of land will remain with the government. - ,",
     "options": [
       "i ii",
       "ii iii",
