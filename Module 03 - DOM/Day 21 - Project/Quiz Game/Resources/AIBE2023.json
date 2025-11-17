@@ -107,7 +107,7 @@
       "Only iii",
       "Only i & ii"
     ],
-    "answer": null
+    "answer": 0
   },
   {
     "question": "How many types of punishment are currently existing under the Indian Penal Code, 1860 ?",
@@ -207,7 +207,7 @@
       "Wife living separately as husband keeps a mistress.",
       "Wife is forcefully removed from the house."
     ],
-    "answer": null
+    "answer": 0
   },
   {
     "question": "Which of the following procedure is dealt under Section 164-A of the Code of Criminal Procedure, 1973 ?",
@@ -247,7 +247,7 @@
       "Offence punishable with imprisonment for a term not exceeding two years.",
       "Offence punishable with life imprisonment."
     ],
-    "answer": null
+    "answer": 0
   },
   {
     "question": "Which of the following Section of the Code of Criminal Procedure, 1973 provides for reference to High Court?",
@@ -277,7 +277,7 @@
       "Attaches property under Section 83 of the CrPC.",
       "Hold an inquest under Section 176 of the CrPC."
     ],
-    "answer": null
+    "answer": 0
   },
   {
     "question": "Which of the following is material for deciding the jurisdiction of the Civil Court in the light of the Code of Civil Procedure, 1908 ?",
@@ -377,7 +377,7 @@
       "Order XLI Rule 24",
       "Order XLI Rule 25"
     ],
-    "answer": null
+    "answer": 0
   },
   {
     "question": "A is accused of the murder of B by beating him. Which of the following will not be considered as relevant fact forming part of the same transaction as per the Indian Evidence Act, 1872 ?",
@@ -677,7 +677,7 @@
       "An Advocate shall not stand as a surety for his client.",
       "An Advocate shall not influence the decision of a court by any improper means."
     ],
-    "answer": null
+    "answer": 0
   },
   {
     "question": "Which of the following authority acts as an appellate authority against the order made by the disciplinary committee of the Bar Council of India ?",
@@ -717,7 +717,7 @@
       "Indian Council for Enviro-Legal Action v Union of India",
       "M.C. Mehta v Kamal Nath"
     ],
-    "answer": null
+    "answer": 0
   },
   {
     "question": "Which of the following is a landmark case on the public trust doctrine in the Environmental Law?",
@@ -837,7 +837,7 @@
       "State Consumer Protection Authority",
       "State Consumer Protection Council"
     ],
-    "answer": null
+    "answer": 0
   },
   {
     "question": "Which of the following provision of the Constitution of India states that no tax can be levied or collected except by authority of law?",
@@ -967,7 +967,7 @@
       "18 months",
       "24 months"
     ],
-    "answer": 4
+    "answer": 0
   },
   {
     "question": "What is the minimum percentage of affected families that need to give their prior consent for acquiring land for private companies as per the Right To Fair Compensation and Transparency in Land Acquisition, Rehabilitation and Resettlement Act, 2013?",
@@ -977,7 +977,7 @@
       "90%",
       "100%"
     ],
-    "answer": 4
+    "answer": 0
   },
   {
     "question": "Imagine an IPL team sets up a company to sell its own range of clothes. What type of intellectual property can the team use to show that the clothes are made by them?",
