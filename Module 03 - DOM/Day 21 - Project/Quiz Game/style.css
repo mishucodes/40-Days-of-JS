@@ -177,6 +177,7 @@ controls a{
 tips{
     /* border: 1px solid red; */
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 5rem;
@@ -184,6 +185,7 @@ tips{
 }
 tips p{
     color: var(--muted-textColor-light);
+    text-align: center;
 }
 
 hr{
