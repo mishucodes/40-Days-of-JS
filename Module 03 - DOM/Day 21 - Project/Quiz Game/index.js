@@ -1,7 +1,6 @@
 const supportedExams =
 {
-    AIBE: [2024, 2023],
-    CLAT: [2024, 2023, 2022, 2021]
+    AIBE: [2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014]
 };
 let examListTemplate = document.querySelector("#exams");
 document.addEventListener("DOMContentLoaded", () => addExams(supportedExams, examListTemplate));

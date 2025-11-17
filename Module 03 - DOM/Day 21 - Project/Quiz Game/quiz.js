@@ -76,11 +76,12 @@
                 showQuiz(quiz, ++progress);
             else if(event.key === "Escape")
                 showQuiz(quiz, progress === 0? progress: --progress);
+            progressElement.textContent = `Progress: ${progress}/${quiz.length}`;
         })
 
 //07. Keeping the Progress-Bar upto date:
     let controlsElement = document.querySelector("controls");
-    controlsElement.addEventListener("click", () => {progressElement.textContent = `Progress: ${progress}/${quiz.length}`})
+    controlsElement.addEventListener("click", () => {progressElement.textContent = `Progress: ${progress}/${quiz.length}`});
 
 //08. Enabling the selection of options:
     let optionsElement = document.querySelector("#options");
