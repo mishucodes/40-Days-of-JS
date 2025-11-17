@@ -1,52 +1,922 @@
 [
     {
-        "question": "What year was the US founded?",
-        "options": ["1803", "1796", "1776", "1720"],
-        "answer": 3
-    },
-    {
-        "question": "Who was the first President of the United States?",
-        "options": ["John Adams", "George Washington", "Thomas Jefferson", "James Madison"],
+        "question": "Which section of BNSS mandates the appointment of a designated police officer in each district and police station to provide information about arrested individuals to the general public?",
+        "options": [
+            "35",
+            "37",
+            "45",
+            "25"
+        ],
         "answer": 2
     },
     {
-        "question": "When did World War II end?",
-        "options": ["1945", "1939", "1918", "1950"],
+        "question": "Which section of BNSS introduces provisions for identifying, attaching, and forfeiting the property of proclaimed offenders located outside India?",
+        "options": [
+            "76",
+            "84",
+            "86",
+            "74"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Which section of BNSS places restrictions on the adjournment of trials, ensuring the expeditious resolution of cases?",
+        "options": [
+            "246",
+            "346",
+            "356",
+            "146"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "A suit is pending in District Court A, but one of the parties, Meera, requests its transfer to District Court B, claiming that the judge in Court A is biased. The opposing party, Ravi, objects, stating that the request is baseless. Who has the authority to decide whether the suit can be transferred?",
+        "options": [
+            "The High Court or the Supreme Court.",
+            "The Civil Judge in District Court B.",
+            "A committee of local advocates.",
+            "The District Court A where the suit is currently pending."
+        ],
         "answer": 1
     },
     {
-        "question": "Which ancient civilisation built the pyramids?",
-        "options": ["Romans", "Greeks", "Egyptians", "Persians"],
+        "question": "Maya files a suit in Court A for the recovery of a sum of money from her neighbour, Neha. During the proceedings, Neha requests that a third party, Seema, be added to the suit, as Seema is allegedly liable for the debt. Maya objects, claiming that Seema is not a necessary party. Court A then reviews the application and decides that Seema should indeed be included as a defendant. Which principle of the CPC is applied in this situation?",
+        "options": [
+            "Order 7, Rule 11 Rejection of Plaint",
+            "Order 5 Service of Summons",
+            "Order 6, Rule 17 Amendment of Pleadings",
+            "Order 1, Rule 10 Joinder and Substitution of Parties"
+        ],
+        "answer": 4
+    },
+    {
+        "question": "Which section of the CPC allows for the appeal from original decrees?",
+        "options": [
+            "Section 100",
+            "Section 115",
+            "Section 104",
+            "Section 96"
+        ],
+        "answer": 4
+    },
+    {
+        "question": "Under the CPC, what is the maximum time limit for filing a written statement in a",
+        "options": [
+            "60 Days",
+            "120 Days",
+            "90 Days",
+            "30 Days"
+        ],
         "answer": 3
     },
     {
-        "question": "What year did the Berlin Wall fall?",
-        "options": ["1981", "1989", "1991", "1975"],
-        "answer": 2
-    },
-    {
-        "question": "Who discovered penicillin?",
-        "options": ["Marie Curie", "Alexander Fleming", "Louis Pasteur", "Isaac Newton"],
-        "answer": 2
-    },
-    {
-        "question": "Which empire was ruled by Genghis Khan?",
-        "options": ["Ottoman", "Mongol", "Roman", "Byzantine"],
-        "answer": 2
-    },
-    {
-        "question": "Where did the Renaissance begin?",
-        "options": ["France", "Greece", "Italy", "Germany"],
-        "answer": 3
-    },
-    {
-        "question": "What was the name of the ship on which the Pilgrims sailed to America?",
-        "options": ["Mayflower", "Endeavour", "Victoria", "Beagle"],
+        "question": "Which section of the CPC provides exemption of the President of India and the Go of states from personal appearance in court?",
+        "options": [
+            "Section 133",
+            "Section 128",
+            "Section 130",
+            "Section 132"
+        ],
         "answer": 1
     },
     {
-        "question": "Which war was sparked by the assassination of Archduke Franz Ferdinand?",
-        "options": ["World War I", "World War II", "Crimean War", "American Civil War"],
+        "question": "What is the term used for a courts power to transfer a case from one court to another under the Code of Civil Procedure?",
+        "options": [
+            "Reference",
+            "Review",
+            "Transfer of suits",
+            "Res Judicata"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Under which order of the CPC the procedure for summary suits is provided?",
+        "options": [
+            "Order XXXVII",
+            "Order XXXIV",
+            "Order XXXVI",
+            "Order XXXV"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Which section mandates State Government prepare and notify a witness protection scheme for the state with a view to ensure the protection of witnesses?",
+        "options": [
+            "198",
+            "298",
+            "398",
+            "98"
+        ],
+        "answer": 3
+    },
+    {
+        "question": " of the CPC provides for an interpleader suit.",
+        "options": [
+            "Section 89",
+            "Section 92",
+            "Section 86",
+            "Section 88"
+        ],
+        "answer": 4
+    },
+    {
+        "question": "Which section of the CPC provides for the payment of compensatory costs?",
+        "options": [
+            "Section 35 A",
+            "Section 35 B",
+            "Section 36",
+            "Section 35"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Which word is inserted in Section 22 of the BSA that was not present in Section 24 of the Evidence Act?",
+        "options": [
+            "Coercion",
+            "Threat",
+            "Promise",
+            "Inducement"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Existence of course of business when relevant is discussed in",
+        "options": [
+            "Section 13 of the BSA, 2023",
+            "Section 14 of the BSA, 2023",
+            "Section 15 of the BSA, 2023",
+            "Section 12 of the BSA, 2023"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "In a criminal trial, Rajesh is accused of theft. During the investigation, the police recover a stolen laptop from a location known to be frequented by Rajesh. His fingerprints are found on the laptop. According to the Bharatiya Sakshya Adhiniyam, 2023, how should the court interpret this piece of evidence?",
+        "options": [
+            "The recovered laptop and fingerprints are circumstantial evidence that can be considered along with other evidence, but do not by themselves prove guilt beyond reasonable doubt.",
+            "The evidence is inadmissible because the police did not obtain a search warrant before recovering the laptop.",
+            "The fingerprints must be verified by at least two independent forensic experts before being presented in court.",
+            "The recovered laptop and fingerprints are automatically considered conclusive proof of Rajeshs guilt."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Where a document is executed in several parts like printing, lithography or photography, video recording, computer resource as a electronic or digital records, the BSA 2023 classifies each part as a?",
+        "options": [
+            "Secondary evidence",
+            "Circumstantial evidence",
+            "Scientific evidence",
+            "Primary evidence"
+        ],
+        "answer": 4
+    },
+    {
+        "question": "Which section of BSA provides that no court shall require any communication between the Ministers and the President of India to be produced before it?",
+        "options": [
+            "165",
+            "268",
+            "168",
+            "65"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "According to section 46 of Bharatiya Sakshya Adhiniyam, when character evidence is relevant in civil cases?",
+        "options": [
+            "Only when related to other relevant fact",
+            "Never relevant",
+            "Only in criminal cases",
+            "Always relevant to prove conduct"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Which section of the CPC deals with the principle of res judicata?",
+        "options": [
+            "Section 10",
+            "Section 12",
+            "Section 9",
+            "Section 11"
+        ],
+        "answer": 4
+    },
+    {
+        "question": "Under section 146 of the BSA 2023, when the leading questions are permissible in the court proceedings?",
+        "options": [
+            "Leading question are not allowed during cross examination",
+            "Leading question can be asked in an examination-in chief, re-examination, cross examination without any objection.",
+            "Leading question are permitted during cross examination and when matters are introductory, undisputed, or sufficiently proved.",
+            "Leading question are always allowed during examination in chief without restriction."
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Which of the following is a characteristic of mediation?",
+        "options": [
+            "It involves a neutral third party who facilitates negotiation between the parties.",
+            "The mediator acts as a judge and renders a verdict.",
+            "It is always court-ordered.",
+            "The mediator imposes a binding decision."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "A dispute arises between ABC Ltd. and XYZ Pvt. Ltd. regarding a contract that both parties had entered into. The agreement includes an arbitration clause, which states that any disputes shall be referred to arbitration. However, the parties fail to agree on the appointment of an arbitrator. Which of the following provisions of the Arbitration and Conciliation Act, 1996 would be applicable to resolve the issue of the appointment of an arbitrator?",
+        "options": [
+            "The parties must mutually select an arbitrator, and if they fail, the arbitration will not take place.",
+            "The arbitrator must be appointed by the Indian Council of Arbitration ICA in all cases.",
+            "The parties can resolve the appointment issue by opting for conciliation instead of arbitration.",
+            "The court will appoint an arbitrator under Section 11 if the parties fail to agree on one."
+        ],
+        "answer": 4
+    },
+    {
+        "question": "Which of the following is not an advantage of using ADR?",
+        "options": [
+            "It offers more confidentiality than traditional court cases",
+            "It always results in a binding decision.",
+            "It is often less expensive than court proceedings.",
+            "It is generally faster than litigation"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Kiran and Meera are involved in an arbitration, where Kiran was awarded Rs. 10 lakhs as compensation. Meera refuses to pay the amount, arguing that the award was not enforceable because of certain procedural irregularities in the arbitration process. Kiran decides to approach the court to enforce the arbitral award. Which of the following provisions of the Arbitration and Conciliation Act, 1996 governs the enforcement of an arbitral award?",
+        "options": [
+            "Section 36 of the Act allows for the automatic enforcement of an arbitral award unless set aside by the court.",
+            "Section 9 of the Act governs the enforcement of arbitral awards.",
+            "Section 11 of the Act deals with the enforcement of arbitral awards, not the appeal.",
+            "Section 34 of the Act deals with the enforcement of an arbitral award."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "As per section 782 of the BSA 2023, presumption about the officer signing or certifying a document is",
+        "options": [
+            "The officer did not hold the claimed officer character at the time of signing",
+            "The officer held the official character claimed when signing or certifying the document",
+            "The documents authenticity is independent of the officials official character",
+            "The officers signature is assumed to be forgery"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Under section 15 of Hindu Marriage Act, 1955 the divorced person, to marry again",
+        "options": [
+            "have to wait for a period of six month from the date of the decree.",
+            "may marry immediately thereafter without the leave of the court as a matter of right.",
+            "None of these",
+            "have to wait for a period of one year from the date of the decree."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Aarti and Rajesh have been married for five years. Over time, Aarti has been subjected to continuous cruelty by Rajesh, which has led to emotional and mental distress. Aarti decides to file for divorce on the grounds of cruelty under Section 13(1)(ia) of the Hindu Marriage Act, 1955. Which of the following statements is true regarding the grounds for divorce under the Hindu Marriage Act?",
+        "options": [
+            "Aarti can seek divorce on the grounds of cruelty, as long as she proves mental or physical cruelty.",
+            "Aarti cannot seek divorce on the grounds of cruelty as it is not recognized under the Hindu Marriage Act.",
+            "Aarti must prove Rajeshs cruelty was intentional to succeed in the divorce petition",
+            "Aarti can only seek divorce on the grounds of adultery."
+        ],
+        "answer": 3
+    },
+    {
+        "question": "On matters where Dayabhaga is silent, what prevails?",
+        "options": [
+            "The Smritis",
+            "The Shrutis",
+            "Mitakshara",
+            "The local customs"
+        ],
+        "answer": 4
+    },
+    {
+        "question": "Nisha and Aakash are separated, and they both seek custody of their minor child, Aarav. Nisha has been the primary caregiver, while Aakash claims that he can provide better financial stability for Aarav. They both approach the court under the Guardian and Wards Act, 1890. Which of the following factors will the court primarily consider in determining the custody of Aarav?",
+        "options": [
+            "The gender of the child.",
+            "The welfare and best interests of the child.",
+            "The parent who is financially more stable is granted custody automatically.",
+            "The financial stability of both parents."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Match the following a. Spoken words i. Sunnat - ul - Qaul b. Deepika vs. CAT ii. Customary Law c. Silence iii. Sunnat - ul - Taqrir d. Ass Kaur vs. Kartar Singh iv. Atypical Relationships e. Shayara Bano vs. UOI v. Triple Talaq vi. Maintenance Choose the correct option",
+        "options": [
+            "a-iii, b-ii, c-i, d-v, e-vi",
+            "a-i, b-iv, c-iii, d-ii, e-v",
+            "a-iii, b-iv, c-i, d-ii, e-vi",
+            "a-i, b-ii, c-iii, d-iv, e-vi"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Which sections discusses with regard to sapinda relationships under the Hindu Marriage Act 1955?",
+        "options": [
+            "Section 3f i, 5iv",
+            "Sections 3f i ii, Explanation to section 3 g, 5iv",
+            "Sections 3f i ii, Explanation to section 3 g, 5v",
+            "Section 3f i, 5v"
+        ],
+        "answer": 4
+    },
+    {
+        "question": "The remedy of restitution of conjugal rights is given in Section of Hindu Marriage Act, 1955.",
+        "options": [
+            "11",
+            "6",
+            "9",
+            "13"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "In which case a prison inmate sent a letter to the Supreme Court, describing physical torture, which became a pioneer in public interest litigation, though the court later abandoned the practice of considering letters?",
+        "options": [
+            "Sunil Batra vs. Delhi Administration",
+            "Mukti Morcha vs. Union of India.",
+            "The Narasimha Rao case",
+            "Hussainara Khatoon vs. Bihar case"
+        ],
+        "answer": 4
+    },
+    {
+        "question": "In the early 1980s, a social activist group discovered severe exploitation of labourers working in stone quarries near Delhi. The workers, including many children, were working in extremely hazardous conditions, living in makeshift shelters, and were effectively trapped in a cycle of debt and forced labour. The conditions revealed systematic violations of fundamental human rights. The Supreme Court was approached to look into the dire circumstances of the working persons there and one of the following views of the court was sustained in the said case, identify from the following-",
+        "options": [
+            "The judgment primarily focused on providing monetary compensation to the affected labourers without addressing systemic issues of bonded labour.",
+            "The Supreme Court recognized the right against forced labour as a fundamental right derived from the right to life and human dignity under Article 21.",
+            "The Court ruled that only government agencies, and not social activists, could file petitions concerning labour rights.",
+            "The Court established that the right to free legal aid is a mere directive principle and cannot be enforced as a fundamental right."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Read the given statements and choose the correct option. Statement 1 In PIL cases, the court plays a passive role similar to traditional cases. Statement 2 PIL is primarily focused on individual disputes.",
+        "options": [
+            "Only Statement 1 is true.",
+            "Only Statement 2 is true.",
+            "Both statements are false.",
+            "Both statements are true"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Fatima, a Muslim woman, has been divorced by her husband, Imran, through Talaq. Fatima is now seeking maintenance from Imran for herself and her two minor children. Imran argues that Fatima has remarried and, therefore, is not entitled to any maintenance. Under Muslim law, which of the following statements is true regarding Fatimas claim for maintenance?",
+        "options": [
+            "Fatima is entitled to maintenance only for a period of three months after the divorce.",
+            "Fatima is entitled to maintenance for herself during her iddat period and for her children until they are self-supporting.",
+            "Fatima can claim maintenance for herself and her children indefinitely, irrespective of her remarriage or the childrens age.",
+            "Fatima is not entitled to maintenance because she has remarried."
+        ],
+        "answer": 4
+    },
+    {
+        "question": "Which of the following best defines delegated legislation?",
+        "options": [
+            "Laws enacted by Parliament or the Legislature.",
+            "Laws made by an administrative authority under powers given to them by Parliament.",
+            "A judicial decision made by an administrative tribunal.",
+            "Legislation passed by local governments."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "In 2020 at Dhorodo village the Panchayat elections could not happen due to covid pandemic while the tenure of the Panchayat was getting over that year itself. Mr. Haribansh, represented the people that year at the Panchayat post dissolution of the Panchayat tenure and made a law exercising the delegated power vide the Panchayatiraj Act of the state to restrict their economic activities per day to 100 only.. In which of the following case this is allowed or restricted?",
+        "options": [
+            "Patna University vs. Amita Tiwari",
+            "Jalan Trading vs. Union of India",
+            "None of these",
+            "MCD vs. Birla Cotton Mills"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Which of the following isare not grounds for judicial review of administrative action? 1 Illegality 2 Irrationality 3 Proportionality 4 Public opinion",
+        "options": [
+            "2 and 4",
+            "1, 2 and 3",
+            "Only 4",
+            "Only 2"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "What does conflict of interest refer to in professional ethics?",
+        "options": [
+            "A situation where two professionals disagree",
+            "A conflict between ethics and laws",
+            "A situation where personal interests conflict with professional duties",
+            "A situation involving legal disputes"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Advocate Mr. X was representing a client, Mr. Y, in a property dispute case. During the proceedings, Advocate Mr. X accepted a bribe from the opposing party to delay the case, causing significant harm to Mr. Ys interests. Moreover, Mr. X failed to inform his client about critical hearing dates, leading to adverse judgments. On the basis of the above problem, select the correct option",
+        "options": [
+            "It is only an offence under the Prevention of Corruption Act, 2018",
+            "It amounts to criminal conspiracy under the Bhartiya Nyaya Sanhita, 2023",
+            "It amounts to the Contempt of Court under the Contempt of Courts Act, 1971",
+            "It is a violation of Rules made by the Bar Council of India for the professional Ethics"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "The nature of proceedings in the cases of professional misconduct 1 Criminal in nature 2 Neither civil nor criminal 3 Quasi-criminal in nature 4 Civil in nature",
+        "options": [
+            "Only 2",
+            "Only 3",
+            "1, 3 and 4",
+            "Both 1 and 4"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Given below are two statements, one labelled as Assertion A and the other labelled as Reason R. Assertion A The concept of locus standi is relaxed in PIL cases. Reason R PIL allows any public-spirited person to approach the court on behalf of those who cannot represent themselves. In the context of the above two statements, which one of the following is correct?",
+        "options": [
+            "Both A and R are true, but R is not the correct explanation of A.",
+            "A is true, but R is false.",
+            "A is false, and R is true.",
+            "Both A and R are true, and R is the correct explanation of A."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "As per Section 284 Share means share in the share capital of a Company and includes 1 Debentures 2 Preference Shares 3 Stocks 4 Bonds",
+        "options": [
+            "1, 2 and 3",
+            "Only 3",
+            "1, 2, 3 and 4",
+            "1 and 2"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Section 43 of the Companies Act, 2013 provides for",
+        "options": [
+            "Kinds of Shares Capital",
+            "Buy Back of Shares",
+            "Reduction in Share Capital",
+            "Issue of Shares at Premium"
+        ],
+        "answer": 4
+    },
+    {
+        "question": "A manufacturing company in the city of Surat named as X has been discharging untreated industrial waste into a nearby river, violating the provisions of the Environment Protection Act, 1986 and the Water Prevention and Control of Pollution Act, 1974. This has resulted in severe pollution, making the river water unsafe for drinking and harming aquatic life. Local farmers and residents, who rely on the river for irrigation and daily needs, have started facing health issues and crop failures due to the contaminated water. Despite multiple complaints to the local pollution control board, no action has been taken against the company. Based on the above problem, select the correct answer",
+        "options": [
+            "It is the violation of Section 40 of the Water Prevention and Control of Pollution Act, 1974.",
+            "It is not the violation of the provisions of the laws stated in the problem.",
+            "It is the violation of Section 23 of the Water Prevention and Control of Pollution Act, 1974.",
+            "It is the violation of Section 24 of the Water Prevention and Control of Pollution 1974."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Which of the following Acts is popularly known as Umbrella Legislation?",
+        "options": [
+            "The Air Prevention and Control of Pollution Act, 1981",
+            "The Factories Act, 1948",
+            "The Environment Protection Act, 1986",
+            "The Water Prevention and Control of Pollution Act, 1974"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Which of the following isare included under Section 21 of the Information Technology Act, 2000 describing the Intermediary? 1 Cyber Cafes 2 Telecom Regulators 3 Social Media Platforms 4 Internet Service Providers",
+        "options": [
+            "1, 3 and 4",
+            "1, 2 and 4",
+            "1, 2, 3 and 4",
+            "1, 2 and 3"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Appropriate procedural safeguards help reduce threats to objectivity and counter any perception of possible bias, which of the following isare not procedural safeguard? 1 Act in a fraudulent manner 2 Providing peer-review of valuation, if necessary 3 Non-Disclosures of any prior association with the client 4 Non-Disclosure of any possible source of conflict of interest",
+        "options": [
+            "Only 1",
+            "Only 4",
+            "2 and 4",
+            "3 and 4"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Which of the following isare included under the definition of employer given under The Industrial Relations Code, 2020? 1 Occupier of the factory 2 Contractor 3 Manager of the factory 4 Managing director of the factory",
+        "options": [
+            "1, 3 and 4",
+            "1, 2 and 4",
+            "1, 2 and 3",
+            "4 Only"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Which of the following legislations has been included under the Social Security Code, 2020? 1 The Maternity Benefit Act, 1961 2 The Payment of Gratuity Act, 1972 3 The Payment of Bonus Act, 1965 4 The Employment Exchanges Compulsory Notification of Vacancies Act, 1959",
+        "options": [
+            "3 and 4",
+            "1, 2 and 4",
+            "1, 2, 3 and 4",
+            "Only 3"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "have not been set up under the provisions of the Industrial Dispute Act, 1947 for adjudication of industrial disputes in an organization.",
+        "options": [
+            "Environmental Tribunals",
+            "Labour Courts",
+            "National Tribunal",
+            "Industrial Tribunals"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "XYZ Textiles Ltd., a manufacturing company, recently terminated 04 workers without providing any compensation. The termination was because of the misconduct on the part of the workers. The company issued a show cause notice and the disciplinary enquiry was also conducted against them. On the basis of the recommendations of the committee the services of these employees were terminated. The workers claimed the retrenchment compensation which was rejected by the management. Aggrieved by the rejection the workers have filed a complaint in the Labour Court under the provisions of the Industrial Disputes Act, 1947. Based on the above problem, select the correct answer",
+        "options": [
+            "The termination amounts to lay-off, hence compensation will be awarded.",
+            "The termination amounts to retrenchment, hence compensation will be awarded.",
+            "The termination violated the provisions under the Industrial Disputes Act, 1947, hence the compensation will be awarded.",
+            "The termination does not amount to retrenchment, hence no compensation"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Malti, a small business owner, runs an online clothing store. Recently, she noticed that her website had been hacked, and her customers personal information, including names, addresses, and payment details, was stolen. Shortly after, some of her customers reported unauthorized transactions on their accounts. Malti wishes to file a complaint against the incident. On the basis of the above problem select the correct option",
+        "options": [
+            "It is punishable only under the criminal laws.",
+            "It is punishable under Section 66 of the Information Technology Act, 2000 and the customers can also claim the compensation under certain circumstances.",
+            "The customers do not have any legal remedy under the Information Technology Act, 2000.",
+            "It is punishable under Section 66 of the Information Technology Act, 2000."
+        ],
+        "answer": 4
+    },
+    {
+        "question": "An agreement not enforceable by law is stated to be void under",
+        "options": [
+            "Section 2e",
+            "Section 2i",
+            "Section 2g",
+            "Section 2d"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "The concept of invalid guarantee is covered under Sections",
+        "options": [
+            "142-144",
+            "143-147",
+            "140-143",
+            "142-146"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "A, a real estate developer, entered into a contract with B, the owner of a piece of prime land, for the purchase of her property. The contract stipulated that A would pay 50 lakhs in advance and the remaining 21 crore within six months. In return, B agreed to transfer the title to the land. However, after receiving the advance payment, B refused to execute the sale deed, claiming that she received a better offer from another buyer. A demanded the enforcement of the contract under the Specific Relief Act, 1963, but B denied his claim. A has to file a suit in a court of law. On the basis of the above problem, select the correct answer",
+        "options": [
+            "A may file a suit in the special court constituted under the Specific Relief Act, 1963.",
+            "A may file a suit in the civil court having the powers under the Civil Procedure Code, 1908.",
+            "No suit can be brought against A as there in no breach of contract.",
+            "A may file a suit in the criminal court having the powers under the Bhartiya Nagarik Suraksha Sanhita, 2023,"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "A transfers a piece of land to B on the condition that B shall not transfer the land to anyone else for the next 10 years. In this case, B has no right to transfer the land to someone else for the next 10 years. On the basis of the above problem, select the correct option",
+        "options": [
+            "It amounts to Conditional Limitations on Transfer of Property",
+            "It amounts to Subsequent Transfer of Property",
+            "It amounts to conditions precedent in the Transfer of Property",
+            "It amounts to Conditional Transfer of Property"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Mr. Rajesh issued a cheque of 250,000 to his supplier, Mr. Sharma, for the payment of goods purchased. When Mr. Sharma deposited the cheque, it was returned by the bank with the remark Insufficient Funds. On the basis of the above problem, select the correct option",
+        "options": [
+            "A complaint in writing is to be made by Mr. Sharma in the court within one month for the dishonour of the cheque",
+            "A complaint in writing is to be made by Mr. Sharma in the court within five months for the dishonour of the cheque",
+            "A complaint in writing is to be made by Mr. Sharma in the court within two months for the dishonour of the cheque",
+            "A complaint in writing is to be made by Mr. Sharma in the court within three months for the dishonour of the cheque"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Rent Free Accommodation provided by an employer to employee is",
+        "options": [
+            "Perquisite as per section 17(2) of the Income Tax Act",
+            "Allowance under section 10(13A) of the Income Tax Act",
+            "Allowance under section 10(1) of the Income Tax Act",
+            "Perquisite as per section 17(2) of the Income Tax Act"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "How the recovery of specific immovable property may be enforced?",
+        "options": [
+            "A person entitled to the possession of specific immovable property may recover it in the manner provided by the Transfer of Property Act, 1882.",
+            "A person entitled to the possession of specific immovable property may recover it in the manner provided by the Code of Criminal Procedure, 1973.",
+            "A person entitled to the possession of specific immovable property may recover it in the manner provided by the Code of Civil Procedure, 1908.",
+            "A person entitled to the possession of specific immovable property may recover it in the manner provided by The Specific Relief Act, 1963."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Which section of Law of Contract defines, A proposal may be revoked at any time, before the communication of its acceptance is complete as against the proposer, but not afterwards.?",
+        "options": [
+            "Section 4",
+            "Section 6",
+            "Section 7",
+            "Section 5"
+        ],
+        "answer": 4
+    },
+    {
+        "question": "According to the Land Acquisition Act Land Acquisition, Rehabilitation and Resettlement, 2013, governments can acquire land for i Strategic purpose. ii Projects for Families Affected by Projects. iii For public-private partnership projects, where government ownership of land will remain with the government.",
+        "options": [
+            "ii and iii",
+            "i and iii",
+            "i, ii and iii",
+            "i and ii"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Land Acquisition Act, 2013 in India has replaced which earlier legislation?",
+        "options": [
+            "Land Acquisition Act, 1862",
+            "Land Acquisition Act, 1894",
+            "Land Acquisition Act, 1874",
+            "Land Acquisition Act, 1956"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Soham, an independent software developer, created a mobile app called FitLife that provides personalized fitness plans. He registered the apps name and logo under trademark law and copyrighted the apps source code. However, six months after its launch, Soham discovered a competing app called FitLyfe, with a similar logo and features, being marketed by a large tech company. Soham believes the competing app copied elements of his source code and intentionally used a confusingly similar name and logo to mislead customers. On the basis of the above problem, select the correct option Under trademark law, can Soham claim infringement for the use of a similar name and logo by the competing app?",
+        "options": [
+            "No, because the competing app has a different name and logo.",
+            "Yes, but only if the competitor is a small business.",
+            "No, trademark infringement can only occur if there is identical copying.",
+            "Yes, if he can prove that the names are confusingly similar."
+        ],
+        "answer": 3
+    },
+    {
+        "question": "What is the duration of copyright protection for literary works in India?",
+        "options": [
+            "60 years from the date of publication",
+            "Lifetime of the author plus 60 years",
+            "10 years from the date of first sale",
+            "50 years from the creation of the work"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Section 31 of the Specific Relief Act, 1963 is related to",
+        "options": [
+            "Cancellation of instruments",
+            "Declaratory decrees",
+            "Perpetual injunction",
+            "Rescission of contracts"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "In which case did the Supreme Court of India held that fundamental rights cannot be waived?",
+        "options": [
+            "Kameshwar Singh vs. State of Bihar",
+            "Golaknath vs. State of Punjab",
+            "Basheshar Nath vs. I.T. Commissioner",
+            "Gopala vs. State of Madras"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "By which Constitutional Amendment was clause 4B inserted into Article 16?",
+        "options": [
+            "91st",
+            "77th",
+            "85th",
+            "81st"
+        ],
+        "answer": 4
+    },
+    {
+        "question": "Which of the following statement is correct about 106th Constitutional Amendment Act? i It introduces Article 239 A by which seats are reserved for women in legislative assembly of the national capital territory of Delhi. ii It introduces Article 338 providing for the reservation of seats for women in the house of people. iii It also adds Article 334A which states in that the said amendment will commence after the first census have been taken after the commencement of the said act. iv The above stated shall cease to have effect on the expiration of a period of 15 years from such commencement.",
+        "options": [
+            "i, iii and iv",
+            "ii, iii, iv",
+            "All of these",
+            "i, ii and iii"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "The Parliament enacts the Fair Housing Act, 2024, which includes the following provisions 1 Section 3 Prohibits discrimination in renting or selling houses based on religion, caste, or gender. 2 Section 6 Imposes a penalty of 10,000 for discrimination. 3 Section 10 Makes it mandatory for landlords to disclose the religious background of all tenants in the previous 10 years. A citizen challenges Section 10, arguing that it violates the right to privacy under Article 21 of the Indian Constitution. The Supreme Court declares Section 10 unconstitutional but upholds the other provisions of the law. What principle did the court apply in this decision?",
+        "options": [
+            "Doctrine of Severability",
+            "Doctrine of Basic Structure",
+            "Doctrine of Colourable Legislation",
+            "Doctrine of Eclipse"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "The reports of the Comptroller and Auditor General of India relating to the accounts of a State shall be submitted to the",
+        "options": [
+            "Committee on Public Undertakings",
+            "Estimates Committee",
+            "Public Accounts Committee",
+            "Governor"
+        ],
+        "answer": 4
+    },
+    {
+        "question": "Which of the following Articles of the Constitution of India declares that the Supreme Court shall be a court of record?",
+        "options": [
+            "Article 111",
+            "Article 129",
+            "Article 135",
+            "Article 119"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "In which case was a registered society held to be an authority for the purpose of Article 12?",
+        "options": [
+            "Ajay Hasia vs. Khalid Mujib",
+            "Sukhdev vs. Bhagatram",
+            "R.D. Shetty vs. International Airport Authority",
+            "Som Prakash vs. Union of India"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Which Constitutional Amendment Act inserted provisions related to GST?",
+        "options": [
+            "100th",
+            "101st",
+            "102nd",
+            "99th"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Who can initiate impeachment proceedings against the President of India?",
+        "options": [
+            "Supreme Court",
+            "Only Lok Sabha",
+            "Rajya Sabha",
+            "Either House of Parliament"
+        ],
+        "answer": 4
+    },
+    {
+        "question": "Bhartiya Nyaya Sanhita, 2023 considers force to be Criminal Force",
+        "options": [
+            "When intentionally uses force only",
+            "When it is used intentionally without consent, causing injury, fear or annoyance",
+            "When it is used in self-defence",
+            "When it is used unintentionally"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "According to Bhartiya Nyaya Sanhita, 2023, what is the maximum fine for making or using a document that resembles a currency note or a bank note under section 182?",
+        "options": [
+            "Five hundred rupees",
+            "Three hundred rupees",
+            "One thousand rupees",
+            "One hundred rupees"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "According to the provisions of the Bhartiya Nyaya Sanhita, 2023, the right of private defence of property extends to the voluntary causing of death or of any other harm to the wrong-doer in which of the offences committed or attempting to be committed? 1 Robbery 2 House-breaking after sunset 3 Theft, mischief or house trespass",
+        "options": [
+            "1 and 3 both",
+            "1 and 2 both",
+            "1, 2 and 3",
+            "1 only"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Rajesh, in a heated argument with Sunil, strikes him with a heavy iron rod. The blow fractures Sunils arm, and he is unable to use it for several weeks. The medical report confirms that the fracture amounts to grievous hurt. Which of the following offenses has Rajesh committed?",
+        "options": [
+            "Voluntarily causing grievous hurt under Section 325 of IPC",
+            "Voluntarily causing hurt under Section 324 of IPC",
+            "Attempt to commit culpable homicide under Section 308 of IPC",
+            "Simple hurt under Section 323 of IPC"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Amit, intending to cause the death of Vijay, attacks him with a knife. Vijay sustains severe injuries and dies on the spot. The investigation reveals that Amit acted with the knowledge that his actions were likely to cause death. However, there is no evidence of premeditation or intent to murder Vijay. Which of the following offenses has Amit committed?",
+        "options": [
+            "Culpable homicide not amounting to murder under Section 304 of IPC",
+            "Causing death by negligence under Section 304A of IPC",
+            "Voluntarily causing grievous hurt under Section 325 of IPC",
+            "Murder under Section 302 of IPC"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Which article deals with the powers, privileges, and immunities of Parliament and its members?",
+        "options": [
+            "105",
+            "108",
+            "102",
+            "107"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Punishment for rape in cases where the victim is a woman below the age of 16 or 12 is included in which section of the BNS?",
+        "options": [
+            "65",
+            "63",
+            "72",
+            "64"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "A new offense of Snatching has been introduced by the BNS. Which section of the BNS defines Snatching as an offense?",
+        "options": [
+            "303",
+            "305",
+            "304",
+            "308"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Consider the following statements and answer the question given below Mr. Patel being a police officer receives a complaint and information that Raju was involved in a robbery of bank and has also helped to hide the valuable properties in his farm, as stated by two villagers. With this regard, consider the following The Police Officer Mr. Patel may Arrest Raju without warrant when 1 Raju can be arrested only if he commits a Non-cognizable offence in the presence of Mr. Patel. 2 Since the reasonable complaint against Raju has been received and there is a strong suspicion exists due to the testimony of villagers, he can be immediately arrested. 3 Raju can be arrested only when he tries to escape or run away. 4 Raju can be arrested so as to prevent him from making any inducement, threat or promise to any person acquainted with facts and circumstances. Which of the above isare the correct statement?",
+        "options": [
+            "2 and 4",
+            "Only 4",
+            "Only 2",
+            "1 and 3"
+        ],
+        "answer": 4
+    },
+    {
+        "question": "BNSS introduced the provision of registration of FIR relating to commission of cognizable offense irrespective of area where the offense is committed. This FIR is known as",
+        "options": [
+            "Zero FIR",
+            "False FIR",
+            "Counter FIR",
+            "NCR"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "The BNSS mandates a forensic team to visit the crime scenes to collect evidence for offenses punishable with imprisonment for at least",
+        "options": [
+            "4 years.",
+            "7 years.",
+            "5 years.",
+            "3 years."
+        ],
+        "answer": 4
+    },
+    {
+        "question": "Which section of the BNSS allows for trials in absentia of proclaimed offenders?",
+        "options": [
+            "349",
+            "356",
+            "366",
+            "251"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Which section of BNSS facilitates trials and proceedings to be held in electronic mode?",
+        "options": [
+            "530",
+            "532",
+            "430",
+            "330"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Which section of BNSS repeals the Code of Criminal Procedure, 1973?",
+        "options": [
+            "101",
+            "2",
+            "1",
+            "531"
+        ],
+        "answer": 4
+    },
+    {
+        "question": "Amit and Rani decide to break into a house at night with the intent of stealing valuables They use a crowbar to force open the door, but before they can take anything, the owner of the house, Vikram, unexpectedly arrives home. Amit and Rani panic and run away without stealing anything. The police arrest them the following morning based on a complaint from Vikram. Which of the following offenses under the BNS have Amit and Rani committed?",
+        "options": [
+            "House trespass with intent to commit theft",
+            "Attempt to commit robbery",
+            "Burglary",
+            "Attempt to commit theft"
+        ],
         "answer": 1
     }
 ]
