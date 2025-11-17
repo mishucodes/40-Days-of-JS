@@ -143,7 +143,7 @@
     "question": "The Bar Council of India has to lay down the standards of professional conduct and etiquette for the Advocates under",
     "options": [
       "Section 3 of the Advocate Act, 1961",
-      "Section 7 1 b of the Advocate Act, 1961",
+      "Section 7(1)b of the Advocate Act, 1961",
       "Section 17 of the Advocate Act, 1961",
       "Section 18 of the Advocate Act, 1961"
     ],
@@ -202,10 +202,10 @@
   {
     "question": "A Hindu wife had been living with her children and all the children had been brought up by her without any assistance and help from the husband many years. The wife was entitled to separate residence and maintenance under",
     "options": [
-      "Section 18 2 f of Hindu Adoptions and Maintenance Act",
-      "Section 18 2 d of Hindu Adoptions and Maintenance Act",
-      "Section 18 2 a of Hindu Adoptions and Maintenance Act",
-      "Section 18 2 g of Hindu Adoptions and Maintenance Act"
+      "Section 18(2)f of Hindu Adoptions and Maintenance Act",
+      "Section 18(2)d of Hindu Adoptions and Maintenance Act",
+      "Section 18(2)a of Hindu Adoptions and Maintenance Act",
+      "Section 18(2)g of Hindu Adoptions and Maintenance Act"
     ],
     "answer": 3
   },
@@ -317,7 +317,7 @@
       "Section 127 of the Indian Contract Act",
       "Section 128 of the Indian Contract Act"
     ],
-    "answer": 1
+    "answer": 2
   },
   {
     "question": "Peek Vs. Gurney is a famous case related to",
@@ -380,7 +380,7 @@
     "answer": 4
   },
   {
-    "question": "Section 105 H of Cr.P.C deals",
+    "question": "Section 105(H) of Cr.P.C deals",
     "options": [
       "Forfeiture of property in certain cases.",
       "Notice of forfeiture of property",
@@ -392,12 +392,12 @@
   {
     "question": "Bar to taking cognizance after lapse of the period of limitation is dealt under",
     "options": [
-      "Section 178 of Cr. P.C.",
-      "Section 469 of Cr. P.C.",
-      "Section 478 of Cr. P.C.",
-      "Section 168 of Cr. P.C."
+      "Section 178 of Cr.P.C.",
+      "Section 469 of Cr.P.C.",
+      "Section 478 of Cr.P.C.",
+      "Section 168 of Cr.P.C."
     ],
-    "answer": 2
+    "answer": 4
   },
   {
     "question": "decree-holder means",
@@ -450,7 +450,7 @@
     "answer": 4
   },
   {
-    "question": "Article 1453 of the Indian Constitution states that The minimum number of Judges who are to sit for the purpose of deciding any case involving a substantial question of law as to the interpretation of this Constitution or for the purpose of hearing any reference under Article 143 shall be....",
+    "question": "Article 145(3) of the Indian Constitution states that The minimum number of Judges who are to sit for the purpose of deciding any case involving a substantial question of law as to the interpretation of this Constitution or for the purpose of hearing any reference under Article 143 shall be....",
     "options": [
       "Two",
       "Three",
@@ -642,10 +642,10 @@
   {
     "question": "According to Justice Abbot Parry what are the Seven Lamps of Advocacy.",
     "options": [
-      "i Honesty ii Courage iii professionalism iv Wit v Eloquence, vi Judgment and vii Fellowship.",
-      "i Honesty ii Courage iii Industry iv Wit v Eloquence, vi Judgment and vii Fellowship.",
-      "i influence ii Courage iii Industry iv Wit v Eloquence, vi Judgment and vii Fellowship.",
-      "i Honesty ii Courage iii Industry iv seriousness v Eloquence, vi Judgment and vii Fellowship."
+      "i. Honesty ii. Courage iii. professionalism iv. Wit v. Eloquence, vi. Judgment and vii. Fellowship.",
+      "i. Honesty ii. Courage iii. Industry iv. Wit v. Eloquence, vi. Judgment and vii. Fellowship.",
+      "i. influence ii. Courage iii. Industry iv. Wit v. Eloquence, vi. Judgment and vii. Fellowship.",
+      "i. Honesty ii. Courage iii. Industry iv. seriousness v. Eloquence, vi. Judgment and vii. Fellowship."
     ],
     "answer": 2
   },
@@ -887,7 +887,7 @@
       "11",
       "12"
     ],
-    "answer": 3
+    "answer": 2
   },
   {
     "question": "Section 14 of the C.P.C. deals with",
