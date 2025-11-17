@@ -270,11 +270,11 @@
     "answer": 2
   },
   {
-    "question": "A suit may be dismissed under order IX",
+    "question": "A suit may be dismissed under order IX: (i) Where the summons is not served upon the defendant in consequence of the plaintiffs failure to pay costs for service of summons (Rule 2). (ii) Where neither the plaintiff nor the defendant appears (Rule 3). (iii) Where plaintiff, after summons returned unserved, fail for 7 days to apply for fresh summons (Rule 5). (iv) Where on the date fixed for hearing in a suit only defendant appears and he does not admit the plaintiff's claim. (Rule 8)",
     "options": [
-      "Where the summons is not served upon the defendant in consequence of the plaintiffs failure to pay costs for service of summons (Rule 2)",
-      "Where neither the plaintiff nor the defendant appears (Rule 3)",
-      "Where plaintiff, after summons returned unserved, fail for 7 days to apply for fresh summons (Rule 5)",
+      "i & ii",
+      "i & iii",
+      "ii & iv",
       "All of the above."
     ],
     "answer": 4
@@ -610,7 +610,7 @@
     "answer": 4
   },
   {
-    "question": "Which of the following is essential for a valid adoption under the Hindu Adoption and Maintenance Act, 1956?",
+    "question": "Which of the following is essential for a valid adoption under the Hindu Adoption and Maintenance Act, 1955?",
     "options": [
       "Datta homam",
       "Actual giving and taking of child",
@@ -790,7 +790,7 @@
     "answer": 2
   },
   {
-    "question": "Industrial relations cover the following areas i Collective bargaining ii Labour legislation iii Industrial relations training iv Trade unions",
+    "question": "Industrial relations cover the following areas i. Collective bargaining ii. Labour legislation iii. Industrial relations training iv. Trade unions",
     "options": [
       "i",
       "i and ii",
@@ -800,7 +800,7 @@
     "answer": 3
   },
   {
-    "question": "Industrial dispute means any dispute or difference between . . i Employees and employers ii Employers and workmen iii Workmen and workmen iv Master and worker",
+    "question": "Industrial dispute means any dispute or difference between .... i. Employees and employers ii. Employers and workmen iii. Workmen and workmen iv. Master and worker",
     "options": [
       "i and ii",
       "iv",
@@ -917,7 +917,7 @@
       "Rectification of Instruments",
       "None of the above"
     ],
-    "answer": 3
+    "answer": 4
   },
   {
     "question": "Specific relief........... Where the agreement is made with minor fill in the blanks.",
