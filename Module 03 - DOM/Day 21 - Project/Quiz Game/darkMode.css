@@ -67,6 +67,9 @@
     controls a{
         background-color: var(--correct-dark);
     }
+    tips p{
+        color: var(--muted-textColor-dark);
+    }
     footer a{
         color: var(--primary-dark);
     }

@@ -69,6 +69,14 @@
     let nextButton = document.querySelector("#nextButton");
     previousButton.addEventListener('click', () => showQuiz(quiz, progress === 0? progress: --progress));
     nextButton.addEventListener('click', () => showQuiz(quiz, ++progress));
+//06A. Helping you navigate via keyboard:
+    document.addEventListener("keyup", (event) =>
+        {
+            if(event.key === "Enter")
+                showQuiz(quiz, ++progress);
+            else if(event.key === "Escape")
+                showQuiz(quiz, progress === 0? progress: --progress);
+        })
 
 //07. Keeping the Progress-Bar upto date:
     let controlsElement = document.querySelector("controls");

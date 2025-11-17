@@ -20,4 +20,7 @@
         margin: 1rem 2rem;
         margin-top: 2.5rem;
     }
+    tips{
+        display: none;
+    }
 }

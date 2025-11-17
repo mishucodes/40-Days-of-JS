@@ -174,10 +174,20 @@ controls a{
     font-size: 2rem;
 }
 
+tips{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem;
+    margin-bottom: 1rem;
+}
+tips p{
+    color: var(--muted-textColor-light);
+}
+
 hr{
     border: 0.5px solid var(--border-light);
-    margin: 5rem;
-    margin-bottom: 0rem;
 }
 footer{
     /* border: 1px solid black; */
