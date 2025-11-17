@@ -117,7 +117,7 @@
       "The amendment has fixed the age for consensual sex as 16 years",
       "All the above"
     ],
-    "answer": 2
+    "answer": 0
   },
   {
     "question": "In kidnapping, the consent of minor is",
@@ -207,7 +207,7 @@
       "Both by the police officer and the Court , ...",
       "either 1 or 2"
     ],
-    "answer": 2
+    "answer": 3
   },
   {
     "question": "A proclaimed person whose property has been attached can claim the property or the sale proceeds on appearance",
@@ -440,6 +440,16 @@
     "answer": 2
   },
   {
+    "question": "The Bar Council of India Rule which stipulated that persons aged 45 years and above could not be enrolled as advocates was struck down by the Supreme Court in",
+    "options": [
+      "In E. S. Reddi vs. Bar Council of India",
+      "Indian Council of Legal Aid and Advise vs. Bar Council of India",
+      "P. Shanmugam vs. Bar Council of India",
+      "Legal Committee vs. Bar Council of India"
+    ],
+    "answer": 2
+  },
+  {
     "question": "Onus to prove reasonable excuse for withdrawal from the Society of the other is on",
     "options": [
       "Petitioner",
@@ -598,6 +608,16 @@
       "Cannot authorize his relative who is neither his officer nor a legal practitioner to appear on his behalf."
     ],
     "answer": 4
+  },
+  {
+    "question": "Which among the following is authorized under the Information Technology Act, 2000 to prescribe the security procedures and practices for the purpose of Sections 14 and 15 of the Act?",
+    "options": [
+      "Central Government",
+      "State Government",
+      "Certifying authority",
+      "Issuing authority"
+    ],
+    "answer": 1
   },
   {
     "question": "Which of the following can be considered retrenchment under the provisions of the Industrial Disputes Act, 1947?",
