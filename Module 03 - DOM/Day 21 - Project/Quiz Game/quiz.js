@@ -22,6 +22,11 @@
 //03. Setting up Exam Name on Display:
     let quizName = document.querySelector("#quizName");
     quizName.textContent = `${examName} ${examYear}`;
+    quizName.addEventListener("click", () =>
+        {
+            if(confirm("Restart this Exam?")) //not the most beautiful UI, but we can work with this...
+                window.location.reload();
+        });
 
 //04. Importing & calling to show Quiz:
     const quizPath = `./Resources/${examName}${examYear}.json`;

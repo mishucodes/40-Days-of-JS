@@ -36,6 +36,19 @@ document.addEventListener("DOMContentLoaded", () => addExams(supportedExams, exa
             fragment.appendChild(newExam);
         }
         let quizzes = document.querySelector("#quizzes");
-        setTimeout(() => quizzes.replaceChildren(fragment), 100); //I think a little delay feels better...
+        setTimeout(() =>
+            {
+                quizzes.replaceChildren(fragment);
+                addGoBackButton();
+            }, 100); //I think a little delay feels better...
     }
 
+//02a: Helper function to add a button to go back to the Homepage:
+    function addGoBackButton()
+    {
+        let controls = document.querySelector("controls");
+        let a = document.createElement("a");
+        a.setAttribute("href", "./index.html");
+        a.textContent = "Go Back";
+        controls.appendChild(a);
+    }
