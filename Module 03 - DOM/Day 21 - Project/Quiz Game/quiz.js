@@ -1,4 +1,3 @@
-alert("Some Questions have all options marked wrong. Don't Worry. Those are disqualified questions.");
 //disabling any double-click on phones:
     let lastTap = 0;
     window.addEventListener("touchend", (event) =>
@@ -15,6 +14,8 @@ alert("Some Questions have all options marked wrong. Don't Worry. Those are disq
     const params = new URLSearchParams(window.location.search);
     const examName = params.get("exam");
     const examYear = params.get("year");
+//01a. Adding a warning:
+    alert(`Some Questions have all options marked wrong. Don't Worry. Those questions were removed by ${examName}.`);
 
 //02. Setting up the progress bar:
     let progressElement = document.querySelector("#quizHeader span");
