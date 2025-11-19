@@ -1,3 +1,4 @@
+alert("Some Questions have all options marked wrong. Don't Worry. Those are disqualified questions.");
 //disabling any double-click on phones:
     let lastTap = 0;
     window.addEventListener("touchend", (event) =>
