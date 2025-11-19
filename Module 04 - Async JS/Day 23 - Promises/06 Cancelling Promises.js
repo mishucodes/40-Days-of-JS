@@ -1,0 +1,1 @@
+//CANCELLING PROMISES: JS does not have built-in support for cancelling promises, but we can implement a workaround using AbortController with fetch API.
