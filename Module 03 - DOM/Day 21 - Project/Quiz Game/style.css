@@ -8,6 +8,7 @@
 
     --normal-textColor-light: hsl(30, 20%, 20%);
     --muted-textColor-light: hsl(30, 15%, 40%);
+    --extraMuted-textColor-light: hsl(30, 15%, 65%);
 
     --border-light: hsl(0, 0%, 30%);
     --highlight-border-light: hsl(0, 0%, 60%);
@@ -186,6 +187,9 @@ tips{
 tips p{
     color: var(--muted-textColor-light);
     text-align: center;
+}
+tips p.computerUsersOnly{
+    color: var(--extraMuted-textColor-light);
 }
 
 hr{

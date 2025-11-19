@@ -7,6 +7,7 @@
 
     --normal-textColor-dark: hsl(30, 30%, 85%);
     --muted-textColor-dark: hsl(30, 20%, 65%);
+    --extraMuted-textColor-dark: hsl(30, 20%, 45%);
     
     --border-dark: hsl(0, 0%, 50%);
     --highlight-border-dark: hsl(0, 0%, 65%);
@@ -69,6 +70,9 @@
     }
     tips p{
         color: var(--muted-textColor-dark);
+    }
+    tips p.computerUsersOnly{
+        color: var(--extraMuted-textColor-dark);
     }
     footer a{
         color: var(--primary-dark);
