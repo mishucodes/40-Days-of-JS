@@ -15,9 +15,9 @@
 
 
 //03. Default Imports & Exports:
-    import {default as mitushiName} from './03 userInfo.js';
+    // import {default as mitushiName} from "./03 userInfo.js";
                     //OR
-    import mitushiName from './03 userInfo.js';
+    import mitushiName from "./03 userInfo.js";
     console.log("Mitushi's name is:", mitushiName()); //it's an old joke...
 
 
