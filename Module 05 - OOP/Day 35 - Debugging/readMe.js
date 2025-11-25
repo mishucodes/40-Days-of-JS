@@ -1,0 +1,2 @@
+//Thanks to excellent guidance of Mr. Adhikary, I was able to spot the errors in each & every example, quite easily I'd say.
+//The lecture was very instructive, but there was nothing really to jot down.
