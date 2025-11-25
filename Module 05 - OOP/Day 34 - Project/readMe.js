@@ -1,0 +1,2 @@
+//Not building the exact same project because I don't think another library management on Netlify would be a good idea.
+//I'll probably use the principles in this module & lecture in some other project.
