@@ -27,6 +27,46 @@
     color: var(--normal-textColor-light);
 }
 
+#modal{
+    position: absolute;
+    z-index: 1;
+    padding: 1rem;
+    background-color: var(--bg-light);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+#modal h2{
+    font-size: 2rem;
+}
+#modal p{
+    text-align: center;
+    font-size: 1.5rem;
+}
+#modal button{
+    border: 1px solid var(--border-light);
+    border-radius: 2rem;
+    padding: 1rem;
+    height: fit-content;
+    width: fit-content;
+    background-color: transparent;
+    color: var(--normal-textColor-light);
+    font-size: 2rem;
+    font-weight: 650;
+    cursor: pointer;
+}
+#modal button:hover{
+    background-color: var(--correct-light);
+}
+
+#modal.hidden{
+    display: none;
+}
+
 body{
     background-color: var(--bg-light);
     transition: background-color 0.5s ease, color 0.5s ease;
@@ -91,7 +131,6 @@ main #quizzes li{
     border: 1px solid black;
     border-radius: 1rem;
     width: 100%;
-    padding: 1rem;
     background-color: var(--nestedCard02-light);
     list-style: none;
 }
@@ -103,7 +142,9 @@ main #quizzes li a{
     text-align: center;
 }
 main #quizzes li a h3{
+    padding: 1rem;
     color: var(--normal-textColor-light);
+    cursor: pointer;
 }
 
 
@@ -128,9 +169,11 @@ main #quizzes li a h3{
     background-color: transparent;
     border: 1px solid var(--border-light);
     border: none;
+    padding: 1rem;
     width: 100%;
     border-radius: 1rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
     cursor: pointer;
 }
 .correctAnswer {

@@ -36,6 +36,17 @@
         background: var(--card-hover-dark);
     }
 
+    #modal{
+        background-color: var(--bg-dark);
+    }
+    #modal button{
+        border: 1px solid var(--border-dark);
+        color: var(--normal-textColor-dark);
+    }
+    #modal button:hover{
+        background-color: var(--correct-dark);
+    }
+
     main #quizzes{
         border: 1px solid var(--border-dark);
         background-color: var(--nestedCard01-dark);

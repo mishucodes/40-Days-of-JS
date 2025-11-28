@@ -11,16 +11,11 @@
     <script defer type="module" src="quiz.js"></script>
 </head>
 <body>
-    <!-- <header>
-        <left>
-            <h1>Hi Learner,</h1>
-            <p>Great to see you!</p>
-        </left>
-        <right>
-            <img src="./Resources/avatar.png" alt="avatar">
-        </right>
-    </header> -->
-
+    <div id="modal">
+        <h2>Gentle Reminder</h2>
+        <p></p>
+        <button>Got it!</button>
+    </div>
     <main>
         <div id="quizHeader">
             <h2 id="quizName">Quiz Name</h2>
@@ -44,8 +39,8 @@
 
     
     <tips>
-        <p>Some questions might have all options wrong.</p>
-        <p>Don't worry. Those are just disqualified questions.</p>
+        <p>Some questions have all options wrong.</p>
+        <p>Don't worry. Those are disqualified questions.</p>
         <br/>
         <p class="computerUsersOnly">Press "Enter" to go to next question, & "Escape" to go to previous one.</p>
     </tips>
@@ -54,5 +49,9 @@
     <footer>
         <p>Created by <a href="https://worldofmishu.in" target="_blank" rel="noopener noreferrer">WorldOfMishu</a></p>
     </footer>
+
+    <media>
+        <audio id="clickSound" src="./Resources/mouseDoubleClickSound.wav"></audio>
+    </media>
 </body>
 </html>

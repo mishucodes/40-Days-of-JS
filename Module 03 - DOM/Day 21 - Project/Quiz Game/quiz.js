@@ -1,4 +1,4 @@
-//disabling any double-click on phones:
+//Disabling any double-click on phones:
     let lastTap = 0;
     window.addEventListener("touchend", (event) =>
         {
@@ -15,7 +15,21 @@
     const examName = params.get("exam");
     const examYear = params.get("year");
 //01a. Adding a warning:
-    alert(`Some Questions have all options marked wrong. Don't Worry. Those questions were removed by ${examName}.`);
+    alertWithModal("Some Questions have all options marked wrong. Don't Worry. Those questions were removed by", examName);
+    function alertWithModal(warning, examBody)
+    {
+        let modal = document.querySelector("#modal");
+        let modalP = modal.querySelector("p");
+        let modalButton = modal.querySelector("button");
+        modalP.textContent = `${warning} ${examBody}.`;
+        modalButton.onclick = () => modal.classList.add("hidden");
+    }
+//01b. Setting up some music:
+    let clickSound = document.querySelector("#clickSound");
+    function playClickSound()
+    {
+        clickSound.play();
+    }
 
 //02. Setting up the progress bar:
     let progressElement = document.querySelector("#quizHeader span");
@@ -31,7 +45,7 @@
         });
 
 //04. Importing & calling to show Quiz:
-    const quizPath = `./Resources/${examName}${examYear}.json`;
+    const quizPath = `./Exams/${examName}${examYear}.json`;
     let quiz;
     fetch(quizPath)
     .then(res => res.json())
@@ -64,6 +78,7 @@
                 let newOption = document.createElement("li");
                 let button = document.createElement("button");
                 button.textContent = option;
+                button.onclick = playClickSound;
                 newOption.appendChild(button);
                 optionsFragment.appendChild(newOption);
             }
