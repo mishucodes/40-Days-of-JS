@@ -1,4 +1,7 @@
-//Disabling any double-click on phones:
+//Importing Scripts:
+    import * as music from "./02a-music.js";
+
+//00. Disabling any double-click on phones:
     let lastTap = 0;
     window.addEventListener("touchend", (event) =>
         {
@@ -8,13 +11,12 @@
             lastTap = now;
         }, { passive: false });
 
-//00. Setting an initial score:
-    let score = 0;
+
 //01. Getting to know the exam:
     const params = new URLSearchParams(window.location.search);
     const examName = params.get("exam");
     const examYear = params.get("year");
-//01a. Adding a warning:
+//02. Adding a small warning:
     alertWithModal("Some Questions have all options marked wrong. Don't Worry. Those questions were removed by", examName);
     function alertWithModal(warning, examBody)
     {
@@ -22,20 +24,16 @@
         let modalP = modal.querySelector("p");
         let modalButton = modal.querySelector("button");
         modalP.textContent = `${warning} ${examBody}.`;
-        modalButton.onclick = () => modal.classList.add("hidden");
-    }
-//01b. Setting up some music:
-    let clickSound = document.querySelector("#clickSound");
-    function playClickSound()
-    {
-        clickSound.play();
+        modalButton.addEventListener("click", () => 
+            {
+                music.playClickSound();
+                modal.classList.add("hidden");
+            });
     }
 
-//02. Setting up the progress bar:
-    let progressElement = document.querySelector("#quizHeader span");
-    //NOTE: actual setting can only take place once we know the exam type. check below (04):
 
-//03. Setting up Exam Name on Display:
+
+//03. Setting up the Exam Name on Display:
     let quizName = document.querySelector("#quizName");
     quizName.textContent = `${examName} ${examYear}`;
     quizName.addEventListener("click", () =>
@@ -43,8 +41,13 @@
             if(confirm("Restart this Exam?")) //not the most beautiful UI, but we can work with this...
                 window.location.reload();
         });
+//04. Setting an initial score:
+    let score = 0;
+//05. Getting the progress bar:
+    let progressElement = document.querySelector("#quizHeader span");
+    //NOTE: actual setting of the same can only take place once we have the exam JSON. Check below (06):
 
-//04. Importing & calling to show Quiz:
+//06. Importing the Exam JSON & calling "showQuiz()" to paint it on DOM:
     const quizPath = `./Exams/${examName}${examYear}.json`;
     let quiz;
     fetch(quizPath)
@@ -57,7 +60,9 @@
         })
     .catch(err => console.error("Failed to load quiz:", err));
 
-//05. Showing the Quiz on the DOM:
+
+
+//07. "showQuiz" function definition:
     function showQuiz(quiz, index = 0)
     {
         //checking if quiz ended:
@@ -78,32 +83,11 @@
                 let newOption = document.createElement("li");
                 let button = document.createElement("button");
                 button.textContent = option;
-                button.onclick = playClickSound;
                 newOption.appendChild(button);
                 optionsFragment.appendChild(newOption);
             }
             optionsElement.replaceChildren(optionsFragment);
     }
-
-//06. Activating the Buttons:
-    let progress = 0;
-    let previousButton = document.querySelector("#previousButton");
-    let nextButton = document.querySelector("#nextButton");
-    previousButton.addEventListener('click', () => showQuiz(quiz, progress === 0? progress: --progress));
-    nextButton.addEventListener('click', () => showQuiz(quiz, ++progress));
-//06A. Helping you navigate via keyboard:
-    document.addEventListener("keyup", (event) =>
-        {
-            if(event.key === "Enter")
-                showQuiz(quiz, ++progress);
-            else if(event.key === "Escape")
-                showQuiz(quiz, progress === 0? progress: --progress);
-            progressElement.textContent = `Progress: ${progress}/${quiz.length}`;
-        })
-
-//07. Keeping the Progress-Bar upto date:
-    let controlsElement = document.querySelector("controls");
-    controlsElement.addEventListener("click", () => {progressElement.textContent = `Progress: ${progress}/${quiz.length}`});
 
 //08. Enabling the selection of options:
     let optionsElement = document.querySelector("#options");
@@ -120,11 +104,40 @@
                         option.classList.add("wrongAnswer");
                 }
                 if(event.target.textContent === quiz[progress].options[quiz[progress].answer-1])
+                {
                     score++;
+                    music.playCorrectOptionSound();
+                }
+                else
+                    music.playWrongOptionSound();
             }
         });
 
-//09. Announcing the Results (Concluding the Quiz):
+//09. Activating the "next" & "previous" Buttons:
+    let progress = 0;
+    let previousButton = document.querySelector("#previousButton");
+    let nextButton = document.querySelector("#nextButton");
+    previousButton.addEventListener('click', () => showQuiz(quiz, progress === 0? progress: --progress));
+    nextButton.addEventListener('click', () => showQuiz(quiz, ++progress));
+    previousButton.addEventListener("click", music.playClickSound);
+    nextButton.addEventListener("click", music.playClickSound);
+//10. Helping you navigate via keyboard as well:
+    document.addEventListener("keyup", (event) =>
+        {
+            if(event.key === "Enter")
+                showQuiz(quiz, ++progress);
+            else if(event.key === "Escape")
+                showQuiz(quiz, progress === 0? progress: --progress);
+            progressElement.textContent = `Progress: ${progress}/${quiz.length}`;
+        })
+
+
+
+//11. Keeping the Progress-Bar upto date:
+    let controlsElement = document.querySelector("controls");
+    controlsElement.addEventListener("click", () => {progressElement.textContent = `Progress: ${progress}/${quiz.length}`});
+
+//12. Announcing the Results (Concluding the Quiz):
     function announceResults()
     {
         let canvas = document.querySelector("#quizzes");
