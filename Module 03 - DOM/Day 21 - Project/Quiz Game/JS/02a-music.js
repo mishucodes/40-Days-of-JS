@@ -3,6 +3,7 @@
     //a) Click Sound:
         let clickSound = document.createElement("audio");
         clickSound.setAttribute("src", "./Resources/mouseDoubleClickSound.wav");
+        clickSound.volume = 0.2;
         function playClickSound()
         {
             clickSound.play();
@@ -11,6 +12,7 @@
     //b) Correct Option Sound:
         let correctOptionSound = document.createElement("audio");
         correctOptionSound.setAttribute("src", "./Resources/correctOptionSound.mp3");
+        correctOptionSound.volume = 0.1;
         function playCorrectOptionSound()
         {
             correctOptionSound.play();
@@ -19,6 +21,7 @@
     //c) Wrong Option Sound:
         let wrongOptionSound = document.createElement("audio");
         wrongOptionSound.setAttribute("src", "./Resources/wrongOptionSound.mp3");
+        wrongOptionSound.volume = 0.1;
         function playWrongOptionSound()
         {
             wrongOptionSound.play();
