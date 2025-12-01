@@ -18,9 +18,6 @@
     const examName = params.get("exam");
     const examYear = params.get("year");
     const examPath = `./Exams/${examName}${examYear}.json`;
-//01. Adding a small warning:
-    helperFunctions.alertUser("Some Questions have all options marked wrong. Don't Worry. Those questions were removed by", examName);
-    //NOTE: We're doing this here, because we don't want this await below to slow things down...
 //ACTUAL GLOBAL VARIABLES:
     let questionPaper = await helperFunctions.fetchQuestionPaper(examPath);
     let score = 0;
@@ -40,6 +37,8 @@
 
 
     
+//01. Adding a small warning:
+    helperFunctions.alertUser("Some Questions have all options marked wrong. Don't Worry. Those questions were removed by", examName);
 
 //02. Setting up the Exam Name on Display:
     examNameElement.textContent = `${examName} ${examYear}`;
