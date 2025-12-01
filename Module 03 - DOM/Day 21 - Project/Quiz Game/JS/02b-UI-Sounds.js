@@ -29,3 +29,6 @@
 
 
 export {playClickSound, playCorrectOptionSound, playWrongOptionSound};
+
+
+//NOTE: The "volume" attribute does not seem to be working in iOS devices. I shall try to fix this bug soon.
