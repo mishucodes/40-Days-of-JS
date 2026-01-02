@@ -1,21 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 :root {
-    --bg-light: hsl(40, 15%, 90%);
-    --card-light: linear-gradient(0deg, hsl(40, 15%, 95%) 95%, hsl(40, 15%, 98%));
-    --card-hover-light: linear-gradient(0deg, hsl(40, 15%, 95%), hsl(40, 15%, 98%));
-    --nestedCard01-light: hsl(40, 15%, 90%);
-    --nestedCard02-light: hsl(40, 15%, 75%);
+    --bgc: hsl(40, 15%, 90%);
+    --card: linear-gradient(0deg, hsl(40, 15%, 95%) 95%, hsl(40, 15%, 98%));
+    --card-hover: linear-gradient(0deg, hsl(40, 15%, 95%), hsl(40, 15%, 98%));
+    --nestedCard01: hsl(40, 15%, 90%);
+    --nestedCard02: hsl(40, 15%, 75%);
 
-    --normal-textColor-light: hsl(30, 20%, 20%);
-    --muted-textColor-light: hsl(30, 15%, 40%);
-    --extraMuted-textColor-light: hsl(30, 15%, 65%);
+    --normal-textColor: hsl(30, 20%, 20%);
+    --muted-textColor: hsl(30, 15%, 40%);
+    --extraMuted-textColor: hsl(30, 15%, 65%);
 
-    --border-light: hsl(0, 0%, 30%);
-    --highlight-border-light: hsl(0, 0%, 60%);
-    --shadow-light: 0px 2px 2px hsla(0, 0%, 0%, 0.07), 0px 4px 4px hsla(0, 0%, 0%, 0.15);
+    --border: hsl(0, 0%, 30%);
+    --highlight-border: hsl(0, 0%, 60%);
+    --shadow: 0px 2px 2px hsla(0, 0%, 0%, 0.07), 0px 4px 4px hsla(0, 0%, 0%, 0.15);
 
-    --correct-light: hsl(146 17% 59%);
-    --wrong-light: hsl(0 66% 75%);
+    --correct: hsl(146 17% 59%);
+    --wrong: hsl(0 66% 75%);
 }
 
 
@@ -24,14 +24,14 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "DM Sans", sans-serif;
-    color: var(--normal-textColor-light);
+    color: var(--normal-textColor);
 }
 
 #modal{
     position: absolute;
     z-index: 1;
     padding: 1rem;
-    background-color: var(--bg-light);
+    background-color: var(--bgc);
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -48,19 +48,19 @@
     font-size: 1.5rem;
 }
 #modal button{
-    border: 1px solid var(--border-light);
+    border: 1px solid var(--border);
     border-radius: 2rem;
     padding: 1rem;
     height: fit-content;
     width: fit-content;
     background-color: transparent;
-    color: var(--normal-textColor-light);
+    color: var(--normal-textColor);
     font-size: 2rem;
     font-weight: 650;
     cursor: pointer;
 }
 #modal button:hover{
-    background-color: var(--correct-light);
+    background-color: var(--correct);
 }
 
 #modal.hidden{
@@ -68,24 +68,24 @@
 }
 
 body{
-    background-color: var(--bg-light);
+    background-color: var(--bgc);
     transition: background-color 0.5s ease, color 0.5s ease;
 }
 
 header, main{
-    border: 1px solid var(--border-light);
+    border: 1px solid var(--border);
     border-radius: 2rem;
-    background: var(--card-light);
+    background: var(--card);
     margin: 2rem;
     padding: 1rem;
     padding-right: 1.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: var(--shadow-light);
+    box-shadow: var(--shadow);
 }
 header:hover, main:hover{
-    background: var(--card-hover-light);
+    background: var(--card-hover);
 }
 header p{
     font-weight: bold;
@@ -115,12 +115,12 @@ main{
 }
 main #quizzes{
     min-height: inherit;
-    border: 1px solid var(--border-light);
+    border: 1px solid var(--border);
     border-radius: 1rem;
     width: 100%;
     margin: auto;
     padding: 1rem;
-    background-color: var(--nestedCard01-light);
+    background-color: var(--nestedCard01);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -131,7 +131,7 @@ main #quizzes li{
     border: 1px solid black;
     border-radius: 1rem;
     width: 100%;
-    background-color: var(--nestedCard02-light);
+    background-color: var(--nestedCard02);
     list-style: none;
 }
 main #quizzes li:hover{
@@ -143,7 +143,7 @@ main #quizzes li a{
 }
 main #quizzes li a h3{
     padding: 1rem;
-    color: var(--normal-textColor-light);
+    color: var(--normal-textColor);
     cursor: pointer;
 }
 
@@ -167,7 +167,7 @@ main #quizzes li a h3{
 }
 #options li button{
     background-color: transparent;
-    border: 1px solid var(--border-light);
+    border: 1px solid var(--border);
     border: none;
     padding: 1rem;
     width: 100%;
@@ -177,10 +177,10 @@ main #quizzes li a h3{
     cursor: pointer;
 }
 .correctAnswer {
-    background-color: var(--correct-light) !important;
+    background-color: var(--correct) !important;
 }
 .wrongAnswer {
-    background-color: var(--wrong-light) !important;
+    background-color: var(--wrong) !important;
 }
 
 controls{
@@ -198,19 +198,19 @@ controls button{
     padding: 0.1rem 2.5rem;
     font-size: 1.5rem;
     font-weight: bold;
-    color: black;
+    color: var(--normal-textColor);
     cursor: pointer;
 }
 #previousButton{
-    background-color: var(--wrong-light);
+    background-color: var(--wrong);
 }
 #nextButton{
-    background-color: var(--correct-light);
+    background-color: var(--correct);
 }
 controls a{
     /* border: 1px solid red; */
     border-radius: 2rem;
-    background-color: var(--correct-light);
+    background-color: var(--correct);
     padding: 0.5rem;
     width: 100%;
     text-align: center;
@@ -228,15 +228,15 @@ tips{
     margin-bottom: 1rem;
 }
 tips p{
-    color: var(--muted-textColor-light);
+    color: var(--muted-textColor);
     text-align: center;
 }
 tips p.computerUsersOnly{
-    color: var(--extraMuted-textColor-light);
+    color: var(--extraMuted-textColor);
 }
 
 hr{
-    border: 0.5px solid var(--border-light);
+    border: 0.5px solid var(--border);
 }
 footer{
     /* border: 1px solid black; */

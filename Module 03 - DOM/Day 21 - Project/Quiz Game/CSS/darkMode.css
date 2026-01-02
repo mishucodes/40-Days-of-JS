@@ -1,91 +1,20 @@
-:root {
-    --bg-dark: hsl(0, 0%, 0%);
-    --card-dark: linear-gradient(0deg, hsl(0, 0%, 10%) 95%, hsl(0, 0%, 25%));
-    --card-hover-dark: linear-gradient(0deg, hsl(0, 0%, 10%), hsl(0, 0%, 25%));
-    --nestedCard01-dark: hsl(40, 15%, 15%);
-    --nestedCard02-dark: hsl(40, 15%, 25%);
-
-    --normal-textColor-dark: hsl(30, 30%, 85%);
-    --muted-textColor-dark: hsl(30, 20%, 65%);
-    --extraMuted-textColor-dark: hsl(30, 20%, 45%);
-    
-    --border-dark: hsl(0, 0%, 50%);
-    --highlight-border-dark: hsl(0, 0%, 65%);
-
-    --correct-dark: hsl(154 58% 29%);
-    --wrong-dark: hsl(356 49% 32%);
-}
-
 @media (prefers-color-scheme: dark)
 {
-    *{
-        color: var(--normal-textColor-dark);
-    }
-    body{
-        background-color: var(--bg-dark);
-    }
-    header, main{
-        border: 1px solid var(--border-dark);
-        border-top: 1px solid var(--highlight-border-dark);
-        background: var(--card-dark);
-    }
-    header{
-        background: var(--nestedCard01-dark);
-    }
-    header:hover, main:hover{
-        background: var(--card-hover-dark);
-    }
+    :root {
+        --bgc: hsl(0, 0%, 0%);
+        --card: linear-gradient(0deg, hsl(0, 0%, 10%) 95%, hsl(0, 0%, 25%));
+        --card-hover: linear-gradient(0deg, hsl(0, 0%, 10%), hsl(0, 0%, 25%));
+        --nestedCard01: hsl(40, 15%, 15%);
+        --nestedCard02: hsl(40, 15%, 25%);
 
-    #modal{
-        background-color: var(--bg-dark);
-    }
-    #modal button{
-        border: 1px solid var(--border-dark);
-        color: var(--normal-textColor-dark);
-    }
-    #modal button:hover{
-        background-color: var(--correct-dark);
-    }
+        --normal-textColor: hsl(30, 30%, 85%);
+        --muted-textColor: hsl(30, 20%, 65%);
+        --extraMuted-textColor: hsl(30, 20%, 45%);
 
-    main #quizzes{
-        border: 1px solid var(--border-dark);
-        background-color: var(--nestedCard01-dark);
-    }
-    main #quizzes li{
-        border: 1px solid var(--border-dark);
-        background-color: var(--nestedCard02-dark);
-    }
-    main #quizzes li:hover{
-        background-color: transparent;
-    }
-    main #quizzes li a h3{
-        color: var(--normal-textColor-dark);
-    }
-    .correctAnswer {
-        background-color: var(--correct-dark) !important;
-    }
-    .wrongAnswer {
-        background-color: var(--wrong-dark) !important;
-    }
-    controls button{
-        color: var(--normal-textColor-dark);
-    }
-    #previousButton{
-        background-color: var(--wrong-dark);
-    }
-    #nextButton{
-        background-color: var(--correct-dark);
-    }
-    controls a{
-        background-color: var(--correct-dark);
-    }
-    tips p{
-        color: var(--muted-textColor-dark);
-    }
-    tips p.computerUsersOnly{
-        color: var(--extraMuted-textColor-dark);
-    }
-    footer a{
-        color: var(--primary-dark);
+        --border: hsl(0, 0%, 50%);
+        --highlight-border: hsl(0, 0%, 65%);
+
+        --correct: hsl(154 58% 29%);
+        --wrong: hsl(356 49% 32%);
     }
 }

@@ -5,14 +5,18 @@
     function alertUser(warning, examBody)
     {
         let modal = document.querySelector("#modal");
+        let modalH2 = document.createElement("h2");
         let modalP = modal.querySelector("p");
-        let modalButton = modal.querySelector("button");
+        let modalButton = document.createElement("button");
+        modalH2.textContent = "Gentle Reminder";
         modalP.textContent = `${warning} ${examBody}.`;
+        modalButton.textContent = "Got It";
         modalButton.addEventListener("click", () => 
             {
                 music.playClickSound();
                 modal.classList.add("hidden");
             });
+        modal.replaceChildren(modalH2, modalP, modalButton);
     }
 
 //02. Fetch Question Paper:
