@@ -8,8 +8,14 @@
         min-height: 40vh;
         margin-top: 2rem;
     }
-    #question{
+    #quizName{
         font-size: 2rem;
+    }
+    #question{
+        font-size: 1.25rem;
+    }
+    #options li button{
+        font-size: 1rem;
     }
     hr{
         margin: 2rem;
@@ -20,7 +26,14 @@
         margin: 1rem 2rem;
         margin-top: 2.5rem;
     }
+    tips{
+        margin: 4rem 0rem;
+        margin-bottom: 0rem;
+    }
     tips .computerUsersOnly{
         display: none;
+    }
+    hr{
+        margin: 1rem;
     }
 }
